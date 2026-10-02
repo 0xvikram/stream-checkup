@@ -3,6 +3,7 @@
  "type": "transaction",
  "entry": [
   {
+   "fullUrl": "urn:uuid:1c447fc8-e12d-5e4e-aa22-88ada1fc5074",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -24,7 +25,6 @@
      }
     ],
     "status": "active",
-    "name": "Exploratório",
     "description": "OneAquaHealth research site C1, Coimbra",
     "mode": "instance",
     "type": [
@@ -44,7 +44,8 @@
     "position": {
      "longitude": -8.42865,
      "latitude": 40.19787
-    }
+    },
+    "name": "Exploratório"
    },
    "request": {
     "method": "POST",
@@ -53,6 +54,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:90073fbb-fc17-57cd-8ebd-585f86d39d3f",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -74,7 +76,6 @@
      }
     ],
     "status": "active",
-    "name": "Estação Cbr-B",
     "description": "OneAquaHealth research site C2, Coimbra",
     "mode": "instance",
     "type": [
@@ -94,7 +95,8 @@
     "position": {
      "longitude": -8.44135,
      "latitude": 40.22483
-    }
+    },
+    "name": "Estação Cbr-B"
    },
    "request": {
     "method": "POST",
@@ -103,6 +105,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:ea8ac82e-da9c-5e36-a48c-80be381af770",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -124,7 +127,6 @@
      }
     ],
     "status": "active",
-    "name": "Vale das Flores",
     "description": "OneAquaHealth research site C3, Coimbra",
     "mode": "instance",
     "type": [
@@ -144,7 +146,8 @@
     "position": {
      "longitude": -8.41945,
      "latitude": 40.19307
-    }
+    },
+    "name": "Vale das Flores"
    },
    "request": {
     "method": "POST",
@@ -153,6 +156,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:9e82d551-0222-55e6-be18-ab683fdd9c50",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -174,7 +178,6 @@
      }
     ],
     "status": "active",
-    "name": "Eiras",
     "description": "OneAquaHealth research site C4, Coimbra",
     "mode": "instance",
     "type": [
@@ -194,7 +197,8 @@
     "position": {
      "longitude": -8.43659,
      "latitude": 40.25289
-    }
+    },
+    "name": "Eiras"
    },
    "request": {
     "method": "POST",
@@ -203,6 +207,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:72398fd8-4eb2-56a6-af86-191c824fd4da",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -224,7 +229,6 @@
      }
     ],
     "status": "active",
-    "name": "Mina Hospital",
     "description": "OneAquaHealth research site C5, Coimbra",
     "mode": "instance",
     "type": [
@@ -244,7 +248,8 @@
     "position": {
      "longitude": -8.42733,
      "latitude": 40.2186
-    }
+    },
+    "name": "Mina Hospital"
    },
    "request": {
     "method": "POST",
@@ -253,6 +258,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:680661fc-7ab4-586a-bf4c-5cdfa2dae804",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -274,7 +280,6 @@
      }
     ],
     "status": "active",
-    "name": "Casa do Sal",
     "description": "OneAquaHealth research site C6, Coimbra",
     "mode": "instance",
     "type": [
@@ -294,7 +299,8 @@
     "position": {
      "longitude": -8.43772,
      "latitude": 40.21942
-    }
+    },
+    "name": "Casa do Sal"
    },
    "request": {
     "method": "POST",
@@ -303,6 +309,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:fce17247-f168-5a5e-bed0-382c075818b8",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -324,7 +331,6 @@
      }
     ],
     "status": "active",
-    "name": "São Romão",
     "description": "OneAquaHealth research site C7, Coimbra",
     "mode": "instance",
     "type": [
@@ -344,7 +350,8 @@
     "position": {
      "longitude": -8.40165,
      "latitude": 40.22243
-    }
+    },
+    "name": "São Romão"
    },
    "request": {
     "method": "POST",
@@ -353,6 +360,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:047bcd49-df9b-5224-b72a-b4b667108e0b",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -374,7 +382,6 @@
      }
     ],
     "status": "active",
-    "name": "Covões",
     "description": "OneAquaHealth research site C8, Coimbra",
     "mode": "instance",
     "type": [
@@ -394,7 +401,8 @@
     "position": {
      "longitude": -8.46002,
      "latitude": 40.19133
-    }
+    },
+    "name": "Covões"
    },
    "request": {
     "method": "POST",
@@ -403,6 +411,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:f7583551-e935-5d83-93b3-112cce5cd660",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -424,7 +433,6 @@
      }
     ],
     "status": "active",
-    "name": "Fornos",
     "description": "OneAquaHealth research site C9, Coimbra",
     "mode": "instance",
     "type": [
@@ -444,7 +452,8 @@
     "position": {
      "longitude": -8.4272,
      "latitude": 40.27702
-    }
+    },
+    "name": "Fornos"
    },
    "request": {
     "method": "POST",
@@ -453,6 +462,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:277c0f03-5065-5d8f-9f8e-190598b22e07",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -474,7 +484,6 @@
      }
     ],
     "status": "active",
-    "name": "Arregaça",
     "description": "OneAquaHealth research site C10, Coimbra",
     "mode": "instance",
     "type": [
@@ -494,7 +503,8 @@
     "position": {
      "longitude": -8.41773,
      "latitude": 40.19776
-    }
+    },
+    "name": "Arregaça"
    },
    "request": {
     "method": "POST",
@@ -503,6 +513,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:7462bffb-a71f-5beb-8cdd-387fd97f5416",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -524,7 +535,6 @@
      }
     ],
     "status": "active",
-    "name": "Bairro São Miguel",
     "description": "OneAquaHealth research site C11, Coimbra",
     "mode": "instance",
     "type": [
@@ -544,7 +554,8 @@
     "position": {
      "longitude": -8.43757,
      "latitude": 40.22752
-    }
+    },
+    "name": "Bairro São Miguel"
    },
    "request": {
     "method": "POST",
@@ -553,6 +564,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:dbdf6036-a704-546b-b920-39f04237bfb9",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -574,7 +586,6 @@
      }
     ],
     "status": "active",
-    "name": "Escola Agrária",
     "description": "OneAquaHealth research site C12, Coimbra",
     "mode": "instance",
     "type": [
@@ -594,7 +605,8 @@
     "position": {
      "longitude": -8.45302,
      "latitude": 40.20386
-    }
+    },
+    "name": "Escola Agrária"
    },
    "request": {
     "method": "POST",
@@ -603,6 +615,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:d4f0339c-1c18-5730-8045-421513abbc0f",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -624,7 +637,6 @@
      }
     ],
     "status": "active",
-    "name": "Condeixa",
     "description": "OneAquaHealth research site C13, Coimbra",
     "mode": "instance",
     "type": [
@@ -644,7 +656,8 @@
     "position": {
      "longitude": -8.49052,
      "latitude": 40.11106
-    }
+    },
+    "name": "Condeixa"
    },
    "request": {
     "method": "POST",
@@ -653,6 +666,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:36fee168-2853-59be-9dc7-2cf87665dad8",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -674,7 +688,6 @@
      }
     ],
     "status": "active",
-    "name": "Antanhol",
     "description": "OneAquaHealth research site C14, Coimbra",
     "mode": "instance",
     "type": [
@@ -694,7 +707,8 @@
     "position": {
      "longitude": -8.47817,
      "latitude": 40.16719
-    }
+    },
+    "name": "Antanhol"
    },
    "request": {
     "method": "POST",
@@ -703,6 +717,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:e189b360-a319-5e39-aee1-9804e7637fa8",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -724,7 +739,6 @@
      }
     ],
     "status": "active",
-    "name": "Copeira",
     "description": "OneAquaHealth research site C15, Coimbra",
     "mode": "instance",
     "type": [
@@ -744,7 +758,8 @@
     "position": {
      "longitude": -8.42117,
      "latitude": 40.17943
-    }
+    },
+    "name": "Copeira"
    },
    "request": {
     "method": "POST",
@@ -753,6 +768,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:375ce0bc-91b3-5c77-8597-d21fc94c5b4e",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -774,7 +790,6 @@
      }
     ],
     "status": "active",
-    "name": "Rio Velho",
     "description": "OneAquaHealth research site C16, Coimbra",
     "mode": "instance",
     "type": [
@@ -794,7 +809,8 @@
     "position": {
      "longitude": -8.44304,
      "latitude": 40.22461
-    }
+    },
+    "name": "Rio Velho"
    },
    "request": {
     "method": "POST",
@@ -803,6 +819,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:a03bfedc-ac9c-5a07-a944-731e40a30f91",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -824,7 +841,6 @@
      }
     ],
     "status": "active",
-    "name": "Conraria",
     "description": "OneAquaHealth research site C17, Coimbra",
     "mode": "instance",
     "type": [
@@ -844,7 +860,8 @@
     "position": {
      "longitude": -8.39363,
      "latitude": 40.17422
-    }
+    },
+    "name": "Conraria"
    },
    "request": {
     "method": "POST",
@@ -853,6 +870,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:9ef49df9-d34b-5702-9470-11357f33e3bc",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -874,7 +892,6 @@
      }
     ],
     "status": "active",
-    "name": "Ponte da Espertina",
     "description": "OneAquaHealth research site C18, Coimbra",
     "mode": "instance",
     "type": [
@@ -894,7 +911,8 @@
     "position": {
      "longitude": -8.45312,
      "latitude": 40.25621
-    }
+    },
+    "name": "Ponte da Espertina"
    },
    "request": {
     "method": "POST",
@@ -903,6 +921,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:0785c6dc-1677-5327-a17a-0dee7eac7dc9",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -924,7 +943,6 @@
      }
     ],
     "status": "active",
-    "name": "Escravote",
     "description": "OneAquaHealth research site C19, Coimbra",
     "mode": "instance",
     "type": [
@@ -944,7 +962,8 @@
     "position": {
      "longitude": -8.41159,
      "latitude": 40.24812
-    }
+    },
+    "name": "Escravote"
    },
    "request": {
     "method": "POST",
@@ -953,6 +972,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:4f26b8f7-e5e2-572b-adc0-204e5237d41c",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -974,7 +994,6 @@
      }
     ],
     "status": "active",
-    "name": "Corujeira",
     "description": "OneAquaHealth research site C20, Coimbra",
     "mode": "instance",
     "type": [
@@ -994,7 +1013,8 @@
     "position": {
      "longitude": -8.47667,
      "latitude": 40.21085
-    }
+    },
+    "name": "Corujeira"
    },
    "request": {
     "method": "POST",
@@ -1003,6 +1023,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:eca2ed58-def4-57f6-b76f-b62497100356",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -1024,7 +1045,6 @@
      }
     ],
     "status": "active",
-    "name": "",
     "description": "OneAquaHealth research site T21, Toulouse",
     "mode": "instance",
     "type": [
@@ -1053,6 +1073,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:35fbce01-9532-593d-8b01-f2c2d78892d8",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -1074,7 +1095,6 @@
      }
     ],
     "status": "active",
-    "name": "",
     "description": "OneAquaHealth research site T24, Toulouse",
     "mode": "instance",
     "type": [
@@ -1103,6 +1123,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:c9caa9e5-7db1-54a6-ad17-cf336897ee1c",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -1124,7 +1145,6 @@
      }
     ],
     "status": "active",
-    "name": "Zottegem1 (Zo1)",
     "description": "OneAquaHealth research site G2, Ghent",
     "mode": "instance",
     "type": [
@@ -1144,7 +1164,8 @@
     "position": {
      "longitude": 3.79794,
      "latitude": 50.85943
-    }
+    },
+    "name": "Zottegem1 (Zo1)"
    },
    "request": {
     "method": "POST",
@@ -1153,6 +1174,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:76056e89-a529-5c85-950d-b228e8316b27",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -1174,7 +1196,6 @@
      }
     ],
     "status": "active",
-    "name": "Capodimonte",
     "description": "OneAquaHealth research site BN1, Benevento",
     "mode": "instance",
     "type": [
@@ -1194,7 +1215,8 @@
     "position": {
      "longitude": 14.80039,
      "latitude": 41.13231
-    }
+    },
+    "name": "Capodimonte"
    },
    "request": {
     "method": "POST",
@@ -1203,6 +1225,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:05306977-0c43-57a8-b631-e0bd4cf7ac32",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -1224,7 +1247,6 @@
      }
     ],
     "status": "active",
-    "name": "Cretarossa",
     "description": "OneAquaHealth research site BN2, Benevento",
     "mode": "instance",
     "type": [
@@ -1244,7 +1266,8 @@
     "position": {
      "longitude": 14.80333,
      "latitude": 41.12679
-    }
+    },
+    "name": "Cretarossa"
    },
    "request": {
     "method": "POST",
@@ -1253,6 +1276,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:81a0a9ca-91b5-502d-ad8b-c4cc09543b04",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -1274,7 +1298,6 @@
      }
     ],
     "status": "active",
-    "name": "Ponticelli",
     "description": "OneAquaHealth research site BN3, Benevento",
     "mode": "instance",
     "type": [
@@ -1294,7 +1317,8 @@
     "position": {
      "longitude": 14.78614,
      "latitude": 41.13348
-    }
+    },
+    "name": "Ponticelli"
    },
    "request": {
     "method": "POST",
@@ -1303,6 +1327,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:d9133f0f-f0e4-5f61-902c-a82fd4fdc700",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -1324,7 +1349,6 @@
      }
     ],
     "status": "active",
-    "name": "Serretelle 4",
     "description": "OneAquaHealth research site BN4, Benevento",
     "mode": "instance",
     "type": [
@@ -1344,7 +1368,8 @@
     "position": {
      "longitude": 14.74864,
      "latitude": 41.12414
-    }
+    },
+    "name": "Serretelle 4"
    },
    "request": {
     "method": "POST",
@@ -1353,6 +1378,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:3231402c-3cae-5be2-aa01-aefb590c368f",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -1374,7 +1400,6 @@
      }
     ],
     "status": "active",
-    "name": "Serretelle 5",
     "description": "OneAquaHealth research site BN5, Benevento",
     "mode": "instance",
     "type": [
@@ -1394,7 +1419,8 @@
     "position": {
      "longitude": 14.74295,
      "latitude": 41.10429
-    }
+    },
+    "name": "Serretelle 5"
    },
    "request": {
     "method": "POST",
@@ -1403,6 +1429,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:025b39b0-553b-5310-b3e8-c67300420791",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -1424,7 +1451,6 @@
      }
     ],
     "status": "active",
-    "name": "Pezzapiano",
     "description": "OneAquaHealth research site BN6, Benevento",
     "mode": "instance",
     "type": [
@@ -1444,7 +1470,8 @@
     "position": {
      "longitude": 14.78437,
      "latitude": 41.14775
-    }
+    },
+    "name": "Pezzapiano"
    },
    "request": {
     "method": "POST",
@@ -1453,6 +1480,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:0e120b42-ca41-58e3-9710-9c9c9dbb7dde",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -1474,7 +1502,6 @@
      }
     ],
     "status": "active",
-    "name": "Margiacca",
     "description": "OneAquaHealth research site BN7, Benevento",
     "mode": "instance",
     "type": [
@@ -1494,7 +1521,8 @@
     "position": {
      "longitude": 14.81407,
      "latitude": 41.14905
-    }
+    },
+    "name": "Margiacca"
    },
    "request": {
     "method": "POST",
@@ -1503,6 +1531,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:a1fb0c6f-c93f-588c-b8d7-c2a0472bf4d5",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -1524,7 +1553,6 @@
      }
     ],
     "status": "active",
-    "name": "Paduli",
     "description": "OneAquaHealth research site BN8, Benevento",
     "mode": "instance",
     "type": [
@@ -1544,7 +1572,8 @@
     "position": {
      "longitude": 14.8345,
      "latitude": 41.15405
-    }
+    },
+    "name": "Paduli"
    },
    "request": {
     "method": "POST",
@@ -1553,6 +1582,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:ab59d7aa-b7d0-5b6e-9925-e76924186dec",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -1574,7 +1604,6 @@
      }
     ],
     "status": "active",
-    "name": "Vallone Cornacchie",
     "description": "OneAquaHealth research site BN9, Benevento",
     "mode": "instance",
     "type": [
@@ -1594,7 +1623,8 @@
     "position": {
      "longitude": 14.8325,
      "latitude": 41.11089
-    }
+    },
+    "name": "Vallone Cornacchie"
    },
    "request": {
     "method": "POST",
@@ -1603,6 +1633,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:315bc3af-9e42-5765-93eb-7ccd61719728",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -1624,7 +1655,6 @@
      }
     ],
     "status": "active",
-    "name": "Malacagna",
     "description": "OneAquaHealth research site BN10, Benevento",
     "mode": "instance",
     "type": [
@@ -1644,7 +1674,8 @@
     "position": {
      "longitude": 14.76353,
      "latitude": 41.14607
-    }
+    },
+    "name": "Malacagna"
    },
    "request": {
     "method": "POST",
@@ -1653,6 +1684,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:ac274125-56fe-51ed-a7bf-e4d284a03298",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -1674,7 +1706,6 @@
      }
     ],
     "status": "active",
-    "name": "Masseria Roseto",
     "description": "OneAquaHealth research site BN11, Benevento",
     "mode": "instance",
     "type": [
@@ -1694,7 +1725,8 @@
     "position": {
      "longitude": 14.75972,
      "latitude": 41.16124
-    }
+    },
+    "name": "Masseria Roseto"
    },
    "request": {
     "method": "POST",
@@ -1703,6 +1735,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:11c27848-2a59-5977-90f7-2541dce08e0c",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -1724,7 +1757,6 @@
      }
     ],
     "status": "active",
-    "name": "Vallone S. Vitale",
     "description": "OneAquaHealth research site BN12, Benevento",
     "mode": "instance",
     "type": [
@@ -1744,7 +1776,8 @@
     "position": {
      "longitude": 14.73193,
      "latitude": 41.13628
-    }
+    },
+    "name": "Vallone S. Vitale"
    },
    "request": {
     "method": "POST",
@@ -1753,6 +1786,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:0512cc9a-0bbb-59df-9396-4c42e2db9c57",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -1774,7 +1808,6 @@
      }
     ],
     "status": "active",
-    "name": "Vallone la Ripa",
     "description": "OneAquaHealth research site BN13, Benevento",
     "mode": "instance",
     "type": [
@@ -1794,7 +1827,8 @@
     "position": {
      "longitude": 14.73683,
      "latitude": 41.11727
-    }
+    },
+    "name": "Vallone la Ripa"
    },
    "request": {
     "method": "POST",
@@ -1803,6 +1837,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:3cf8036d-9b14-5b39-8b5b-e32b3cf0bd11",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -1824,7 +1859,6 @@
      }
     ],
     "status": "active",
-    "name": "Rocca - Tufara",
     "description": "OneAquaHealth research site BN14, Benevento",
     "mode": "instance",
     "type": [
@@ -1844,7 +1878,8 @@
     "position": {
      "longitude": 14.70843,
      "latitude": 41.06014
-    }
+    },
+    "name": "Rocca - Tufara"
    },
    "request": {
     "method": "POST",
@@ -1853,6 +1888,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:70e3cf1f-ccef-59c7-a6df-c53730c2eae1",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -1874,7 +1910,6 @@
      }
     ],
     "status": "active",
-    "name": "Corvo Tressanti",
     "description": "OneAquaHealth research site BN15, Benevento",
     "mode": "instance",
     "type": [
@@ -1894,7 +1929,8 @@
     "position": {
      "longitude": 14.70959,
      "latitude": 41.06921
-    }
+    },
+    "name": "Corvo Tressanti"
    },
    "request": {
     "method": "POST",
@@ -1903,6 +1939,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:5e27be29-92f3-5e09-a1a3-a9f16ae31c57",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -1924,7 +1961,6 @@
      }
     ],
     "status": "active",
-    "name": "Ranno",
     "description": "OneAquaHealth research site BN16, Benevento",
     "mode": "instance",
     "type": [
@@ -1944,7 +1980,8 @@
     "position": {
      "longitude": 14.70876,
      "latitude": 41.06923
-    }
+    },
+    "name": "Ranno"
    },
    "request": {
     "method": "POST",
@@ -1953,6 +1990,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:df937592-d7db-5f27-a9e2-718d277f62b1",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -1974,7 +2012,6 @@
      }
     ],
     "status": "active",
-    "name": "Lossauro",
     "description": "OneAquaHealth research site BN17, Benevento",
     "mode": "instance",
     "type": [
@@ -1994,7 +2031,8 @@
     "position": {
      "longitude": 14.7127,
      "latitude": 41.13221
-    }
+    },
+    "name": "Lossauro"
    },
    "request": {
     "method": "POST",
@@ -2003,6 +2041,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:9c59c0eb-882f-5d8e-bfc5-5364eb49b731",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -2024,7 +2063,6 @@
      }
     ],
     "status": "active",
-    "name": "Jenga",
     "description": "OneAquaHealth research site BN18, Benevento",
     "mode": "instance",
     "type": [
@@ -2044,7 +2082,8 @@
     "position": {
      "longitude": 14.70936,
      "latitude": 41.15126
-    }
+    },
+    "name": "Jenga"
    },
    "request": {
     "method": "POST",
@@ -2053,6 +2092,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:c4694d6c-fede-5494-bc38-d37f7bdd6947",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -2074,7 +2114,6 @@
      }
     ],
     "status": "active",
-    "name": "Foeniculum",
     "description": "OneAquaHealth research site BN19, Benevento",
     "mode": "instance",
     "type": [
@@ -2094,7 +2133,8 @@
     "position": {
      "longitude": 14.719005,
      "latitude": 41.185791
-    }
+    },
+    "name": "Foeniculum"
    },
    "request": {
     "method": "POST",
@@ -2103,6 +2143,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:e72fa86d-3237-55e7-a57c-040722324b16",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -2124,7 +2165,6 @@
      }
     ],
     "status": "active",
-    "name": "Lenta",
     "description": "OneAquaHealth research site BN20, Benevento",
     "mode": "instance",
     "type": [
@@ -2144,7 +2184,8 @@
     "position": {
      "longitude": 14.68999,
      "latitude": 41.213825
-    }
+    },
+    "name": "Lenta"
    },
    "request": {
     "method": "POST",
@@ -2153,6 +2194,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:fc41c3e7-c99b-5d9c-a6c8-3f45721dc556",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -2174,7 +2216,6 @@
      }
     ],
     "status": "active",
-    "name": "Zwalm2 (Zw2)",
     "description": "OneAquaHealth research site G6, Ghent",
     "mode": "instance",
     "type": [
@@ -2194,7 +2235,8 @@
     "position": {
      "longitude": 3.75151,
      "latitude": 50.87579
-    }
+    },
+    "name": "Zwalm2 (Zw2)"
    },
    "request": {
     "method": "POST",
@@ -2203,6 +2245,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:fe43867f-d066-5a28-97d2-61b72f7375a5",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -2224,7 +2267,6 @@
      }
     ],
     "status": "active",
-    "name": "Ruisseau du Palays",
     "description": "OneAquaHealth research site T1, Toulouse",
     "mode": "instance",
     "type": [
@@ -2244,7 +2286,8 @@
     "position": {
      "longitude": 1.49147,
      "latitude": 43.55267
-    }
+    },
+    "name": "Ruisseau du Palays"
    },
    "request": {
     "method": "POST",
@@ -2253,6 +2296,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:804b59d1-f497-5466-8b76-6f903b610b04",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -2274,7 +2318,6 @@
      }
     ],
     "status": "active",
-    "name": "Ruisseau de Bonneval amont",
     "description": "OneAquaHealth research site T3, Toulouse",
     "mode": "instance",
     "type": [
@@ -2294,7 +2337,8 @@
     "position": {
      "longitude": 1.47439,
      "latitude": 43.52756
-    }
+    },
+    "name": "Ruisseau de Bonneval amont"
    },
    "request": {
     "method": "POST",
@@ -2303,6 +2347,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:1acd6e7b-c6eb-5aae-83ea-cab301afd129",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -2324,7 +2369,6 @@
      }
     ],
     "status": "active",
-    "name": "Zwalm4 (Zw4)",
     "description": "OneAquaHealth research site G8, Ghent",
     "mode": "instance",
     "type": [
@@ -2344,7 +2388,8 @@
     "position": {
      "longitude": 3.73771,
      "latitude": 50.87971
-    }
+    },
+    "name": "Zwalm4 (Zw4)"
    },
    "request": {
     "method": "POST",
@@ -2353,6 +2398,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:1e3579eb-dc67-5484-a5b8-173edeaabace",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -2374,7 +2420,6 @@
      }
     ],
     "status": "active",
-    "name": "Zwalm5 (Zw5)",
     "description": "OneAquaHealth research site G9, Ghent",
     "mode": "instance",
     "type": [
@@ -2394,7 +2439,8 @@
     "position": {
      "longitude": 3.73125,
      "latitude": 50.87366
-    }
+    },
+    "name": "Zwalm5 (Zw5)"
    },
    "request": {
     "method": "POST",
@@ -2403,6 +2449,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:a0174552-7e45-5d40-aa98-e181cf02600c",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -2424,7 +2471,6 @@
      }
     ],
     "status": "active",
-    "name": "Zwalm6 (Zw6)",
     "description": "OneAquaHealth research site G10, Ghent",
     "mode": "instance",
     "type": [
@@ -2444,7 +2490,8 @@
     "position": {
      "longitude": 3.71431,
      "latitude": 50.88344
-    }
+    },
+    "name": "Zwalm6 (Zw6)"
    },
    "request": {
     "method": "POST",
@@ -2453,6 +2500,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:e7d92401-c098-54f3-a556-cf289803b553",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -2474,7 +2522,6 @@
      }
     ],
     "status": "active",
-    "name": "Zwalm7 (Zw7)",
     "description": "OneAquaHealth research site G22, Ghent",
     "mode": "instance",
     "type": [
@@ -2494,7 +2541,8 @@
     "position": {
      "longitude": 3.692821,
      "latitude": 50.88527
-    }
+    },
+    "name": "Zwalm7 (Zw7)"
    },
    "request": {
     "method": "POST",
@@ -2503,6 +2551,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:862d0ac7-77e6-559a-9c23-0609b466f1a2",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -2524,7 +2573,6 @@
      }
     ],
     "status": "active",
-    "name": "Zwalm8 (Zw8)",
     "description": "OneAquaHealth research site G11, Ghent",
     "mode": "instance",
     "type": [
@@ -2544,7 +2592,8 @@
     "position": {
      "longitude": 3.68791,
      "latitude": 50.88437
-    }
+    },
+    "name": "Zwalm8 (Zw8)"
    },
    "request": {
     "method": "POST",
@@ -2553,6 +2602,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:3df779ba-d6ec-5d99-b5b8-1b0c27b12a72",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -2574,7 +2624,6 @@
      }
     ],
     "status": "active",
-    "name": "Zwalm9 (Zw9)",
     "description": "OneAquaHealth research site G12, Ghent",
     "mode": "instance",
     "type": [
@@ -2594,7 +2643,8 @@
     "position": {
      "longitude": 3.68606,
      "latitude": 50.88541
-    }
+    },
+    "name": "Zwalm9 (Zw9)"
    },
    "request": {
     "method": "POST",
@@ -2603,6 +2653,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:097ff3b3-78cd-5226-b409-374dbc047556",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -2624,7 +2675,6 @@
      }
     ],
     "status": "active",
-    "name": "Merelbeke1 (Mr1)",
     "description": "OneAquaHealth research site G13, Ghent",
     "mode": "instance",
     "type": [
@@ -2644,7 +2694,8 @@
     "position": {
      "longitude": 3.72241,
      "latitude": 50.97958
-    }
+    },
+    "name": "Merelbeke1 (Mr1)"
    },
    "request": {
     "method": "POST",
@@ -2653,6 +2704,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:879f8885-9fb4-55ab-857c-9a014dfe2a63",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -2674,7 +2726,6 @@
      }
     ],
     "status": "active",
-    "name": "Merelbeke2 (Mr2)",
     "description": "OneAquaHealth research site G14, Ghent",
     "mode": "instance",
     "type": [
@@ -2694,7 +2745,8 @@
     "position": {
      "longitude": 3.73925,
      "latitude": 50.99821
-    }
+    },
+    "name": "Merelbeke2 (Mr2)"
    },
    "request": {
     "method": "POST",
@@ -2703,6 +2755,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:16897d20-d5a0-5ac1-ba23-d87466cf2ab1",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -2724,7 +2777,6 @@
      }
     ],
     "status": "active",
-    "name": "Melle1 (Ml1)",
     "description": "OneAquaHealth research site G15, Ghent",
     "mode": "instance",
     "type": [
@@ -2744,7 +2796,8 @@
     "position": {
      "longitude": 3.80615,
      "latitude": 50.98975
-    }
+    },
+    "name": "Melle1 (Ml1)"
    },
    "request": {
     "method": "POST",
@@ -2753,6 +2806,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:781dbbca-860d-5a1e-8660-988ff077e61f",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -2774,7 +2828,6 @@
      }
     ],
     "status": "active",
-    "name": "Melle2 (Ml2)",
     "description": "OneAquaHealth research site G16, Ghent",
     "mode": "instance",
     "type": [
@@ -2794,7 +2847,8 @@
     "position": {
      "longitude": 3.80568,
      "latitude": 50.99491
-    }
+    },
+    "name": "Melle2 (Ml2)"
    },
    "request": {
     "method": "POST",
@@ -2803,6 +2857,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:b8e0e404-65f0-57db-88df-e79c18128223",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -2824,7 +2879,6 @@
      }
     ],
     "status": "active",
-    "name": "Gent1 (G1)",
     "description": "OneAquaHealth research site G17, Ghent",
     "mode": "instance",
     "type": [
@@ -2844,7 +2898,8 @@
     "position": {
      "longitude": 3.77389,
      "latitude": 51.02678
-    }
+    },
+    "name": "Gent1 (G1)"
    },
    "request": {
     "method": "POST",
@@ -2853,6 +2908,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:e97cccef-0e6a-5d02-865a-f64f5c365efd",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -2874,7 +2930,6 @@
      }
     ],
     "status": "active",
-    "name": "Gent2 (G2)",
     "description": "OneAquaHealth research site G18, Ghent",
     "mode": "instance",
     "type": [
@@ -2894,7 +2949,8 @@
     "position": {
      "longitude": 3.68126,
      "latitude": 51.05458
-    }
+    },
+    "name": "Gent2 (G2)"
    },
    "request": {
     "method": "POST",
@@ -2903,6 +2959,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:47dd3185-bfb2-54c7-8b8b-2c5a210e86df",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -2924,7 +2981,6 @@
      }
     ],
     "status": "active",
-    "name": "Alna – Bryn stasjon",
     "description": "OneAquaHealth research site O17, Oslo",
     "mode": "instance",
     "type": [
@@ -2944,7 +3000,8 @@
     "position": {
      "longitude": 10.8128,
      "latitude": 59.9078
-    }
+    },
+    "name": "Alna – Bryn stasjon"
    },
    "request": {
     "method": "POST",
@@ -2953,6 +3010,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:ae0b3881-b808-59c1-a870-570455a03076",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -2974,7 +3032,6 @@
      }
     ],
     "status": "active",
-    "name": "Oosterzele1 (O1)",
     "description": "OneAquaHealth research site G1, Ghent",
     "mode": "instance",
     "type": [
@@ -2994,7 +3051,8 @@
     "position": {
      "longitude": 3.8168,
      "latitude": 50.94744
-    }
+    },
+    "name": "Oosterzele1 (O1)"
    },
    "request": {
     "method": "POST",
@@ -3003,6 +3061,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:fdd62b00-3d29-57ac-8d4d-94d516673e3b",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -3024,7 +3083,6 @@
      }
     ],
     "status": "active",
-    "name": "Zottegem3 (Zo3)",
     "description": "OneAquaHealth research site G4, Ghent",
     "mode": "instance",
     "type": [
@@ -3044,7 +3102,8 @@
     "position": {
      "longitude": 3.80222,
      "latitude": 50.87507
-    }
+    },
+    "name": "Zottegem3 (Zo3)"
    },
    "request": {
     "method": "POST",
@@ -3053,6 +3112,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:096a0249-e8ce-5622-8594-c6eb2b0731f4",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -3074,7 +3134,6 @@
      }
     ],
     "status": "active",
-    "name": "Zottegem4 (Zo4)",
     "description": "OneAquaHealth research site G21, Ghent",
     "mode": "instance",
     "type": [
@@ -3094,7 +3153,8 @@
     "position": {
      "longitude": 3.81558,
      "latitude": 50.89162
-    }
+    },
+    "name": "Zottegem4 (Zo4)"
    },
    "request": {
     "method": "POST",
@@ -3103,6 +3163,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:d01c471e-dc8e-580a-a533-f1cf67ae4af9",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -3124,7 +3185,6 @@
      }
     ],
     "status": "active",
-    "name": "Zwalm1 (Zw1)",
     "description": "OneAquaHealth research site G5, Ghent",
     "mode": "instance",
     "type": [
@@ -3144,7 +3204,8 @@
     "position": {
      "longitude": 3.74917,
      "latitude": 50.87539
-    }
+    },
+    "name": "Zwalm1 (Zw1)"
    },
    "request": {
     "method": "POST",
@@ -3153,6 +3214,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:b42ec0be-ac27-51a9-8032-a2055fa34531",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -3174,7 +3236,6 @@
      }
     ],
     "status": "active",
-    "name": "Ruisseau de Bonneval aval",
     "description": "OneAquaHealth research site T2, Toulouse",
     "mode": "instance",
     "type": [
@@ -3194,7 +3255,8 @@
     "position": {
      "longitude": 1.46332,
      "latitude": 43.53219
-    }
+    },
+    "name": "Ruisseau de Bonneval aval"
    },
    "request": {
     "method": "POST",
@@ -3203,6 +3265,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:500f31bf-c801-5098-8efa-844d66671bf3",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -3224,7 +3287,6 @@
      }
     ],
     "status": "active",
-    "name": "Gent3 (G3)",
     "description": "OneAquaHealth research site G19, Ghent",
     "mode": "instance",
     "type": [
@@ -3244,7 +3306,8 @@
     "position": {
      "longitude": 3.786,
      "latitude": 51.02843
-    }
+    },
+    "name": "Gent3 (G3)"
    },
    "request": {
     "method": "POST",
@@ -3253,6 +3316,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:5607a1e5-0760-5844-a3d0-35ea49a1d497",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -3274,7 +3338,6 @@
      }
     ],
     "status": "active",
-    "name": "Gent4 (G4)",
     "description": "OneAquaHealth research site G20, Ghent",
     "mode": "instance",
     "type": [
@@ -3294,7 +3357,8 @@
     "position": {
      "longitude": 3.71687,
      "latitude": 51.0939
-    }
+    },
+    "name": "Gent4 (G4)"
    },
    "request": {
     "method": "POST",
@@ -3303,6 +3367,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:24ccd846-aecb-5b47-b9a2-4f6feb2df3fe",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -3324,7 +3389,6 @@
      }
     ],
     "status": "active",
-    "name": "Zottegem2 (Zo2)",
     "description": "OneAquaHealth research site G3, Ghent",
     "mode": "instance",
     "type": [
@@ -3344,7 +3408,8 @@
     "position": {
      "longitude": 3.75174,
      "latitude": 50.87604
-    }
+    },
+    "name": "Zottegem2 (Zo2)"
    },
    "request": {
     "method": "POST",
@@ -3353,6 +3418,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:aceaf140-6099-500c-9f7d-885421fc46b3",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -3374,7 +3440,6 @@
      }
     ],
     "status": "active",
-    "name": "Marcaissonne aval",
     "description": "OneAquaHealth research site T5, Toulouse",
     "mode": "instance",
     "type": [
@@ -3394,7 +3459,8 @@
     "position": {
      "longitude": 1.50937,
      "latitude": 43.5678
-    }
+    },
+    "name": "Marcaissonne aval"
    },
    "request": {
     "method": "POST",
@@ -3403,6 +3469,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:794ecd6e-2ef5-5ff9-ab67-676e7fc08b1b",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -3424,7 +3491,6 @@
      }
     ],
     "status": "active",
-    "name": "Marcaissonne amont",
     "description": "OneAquaHealth research site T6, Toulouse",
     "mode": "instance",
     "type": [
@@ -3444,7 +3510,8 @@
     "position": {
      "longitude": 1.51974,
      "latitude": 43.56755
-    }
+    },
+    "name": "Marcaissonne amont"
    },
    "request": {
     "method": "POST",
@@ -3453,6 +3520,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:5daee1a9-ee38-5efe-a556-1a8370021bba",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -3474,7 +3542,6 @@
      }
     ],
     "status": "active",
-    "name": "Saune",
     "description": "OneAquaHealth research site T7, Toulouse",
     "mode": "instance",
     "type": [
@@ -3494,7 +3561,8 @@
     "position": {
      "longitude": 1.53609,
      "latitude": 43.57873
-    }
+    },
+    "name": "Saune"
    },
    "request": {
     "method": "POST",
@@ -3503,6 +3571,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:91cfbb90-54e8-5831-8890-7fec27b8991a",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -3524,7 +3593,6 @@
      }
     ],
     "status": "active",
-    "name": "Ruisseau du Grand Port de Mer",
     "description": "OneAquaHealth research site T8, Toulouse",
     "mode": "instance",
     "type": [
@@ -3544,7 +3612,8 @@
     "position": {
      "longitude": 1.52861,
      "latitude": 43.58553
-    }
+    },
+    "name": "Ruisseau du Grand Port de Mer"
    },
    "request": {
     "method": "POST",
@@ -3553,6 +3622,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:f8fcce5f-5df1-5658-8310-11a21cbd86c3",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -3574,7 +3644,6 @@
      }
     ],
     "status": "active",
-    "name": "Ruisseau du Roussimort amont",
     "description": "OneAquaHealth research site T9, Toulouse",
     "mode": "instance",
     "type": [
@@ -3594,7 +3663,8 @@
     "position": {
      "longitude": 1.34273,
      "latitude": 43.52152
-    }
+    },
+    "name": "Ruisseau du Roussimort amont"
    },
    "request": {
     "method": "POST",
@@ -3603,6 +3673,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:c683a903-6b64-567e-90a8-b193ac327692",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -3624,7 +3695,6 @@
      }
     ],
     "status": "active",
-    "name": "Fossé Mère (ou Ruisseau Le Négogousses)",
     "description": "OneAquaHealth research site T15, Toulouse",
     "mode": "instance",
     "type": [
@@ -3644,7 +3714,8 @@
     "position": {
      "longitude": 1.38535,
      "latitude": 43.5713
-    }
+    },
+    "name": "Fossé Mère (ou Ruisseau Le Négogousses)"
    },
    "request": {
     "method": "POST",
@@ -3653,6 +3724,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:cb729979-1de1-5912-96ff-89390cc78d99",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -3674,7 +3746,6 @@
      }
     ],
     "status": "active",
-    "name": "Zwalm3 (Zw3)",
     "description": "OneAquaHealth research site G7, Ghent",
     "mode": "instance",
     "type": [
@@ -3694,7 +3765,8 @@
     "position": {
      "longitude": 3.76577,
      "latitude": 50.86216
-    }
+    },
+    "name": "Zwalm3 (Zw3)"
    },
    "request": {
     "method": "POST",
@@ -3703,6 +3775,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:dc6b2922-b374-5ad3-9e1b-7678368d49f5",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -3724,7 +3797,6 @@
      }
     ],
     "status": "active",
-    "name": "Gaustadbekken-Skådalen",
     "description": "OneAquaHealth research site O1, Oslo",
     "mode": "instance",
     "type": [
@@ -3744,7 +3816,8 @@
     "position": {
      "longitude": 10.7153,
      "latitude": 59.9561
-    }
+    },
+    "name": "Gaustadbekken-Skådalen"
    },
    "request": {
     "method": "POST",
@@ -3753,6 +3826,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:a9bdd648-0c1d-55f9-bc89-0aed9889321e",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -3774,7 +3848,6 @@
      }
     ],
     "status": "active",
-    "name": "Hoffsbekken",
     "description": "OneAquaHealth research site O2, Oslo",
     "mode": "instance",
     "type": [
@@ -3794,7 +3867,8 @@
     "position": {
      "longitude": 10.6806,
      "latitude": 59.9514
-    }
+    },
+    "name": "Hoffsbekken"
    },
    "request": {
     "method": "POST",
@@ -3803,6 +3877,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:f1606412-f596-5524-8899-93894b9eb032",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -3824,7 +3899,6 @@
      }
     ],
     "status": "active",
-    "name": "Gaustadbekken-Slemdalsveien/RH",
     "description": "OneAquaHealth research site O3, Oslo",
     "mode": "instance",
     "type": [
@@ -3844,7 +3918,8 @@
     "position": {
      "longitude": 10.7111,
      "latitude": 59.9475
-    }
+    },
+    "name": "Gaustadbekken-Slemdalsveien/RH"
    },
    "request": {
     "method": "POST",
@@ -3853,6 +3928,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:6a1b6ed9-689c-58dd-be94-f25c31025972",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -3874,7 +3950,6 @@
      }
     ],
     "status": "active",
-    "name": "Hoffselva - Møllhausen",
     "description": "OneAquaHealth research site O5, Oslo",
     "mode": "instance",
     "type": [
@@ -3894,7 +3969,8 @@
     "position": {
      "longitude": 10.6769,
      "latitude": 59.9308
-    }
+    },
+    "name": "Hoffselva - Møllhausen"
    },
    "request": {
     "method": "POST",
@@ -3903,6 +3979,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:69adda9a-c4ea-5955-9845-55f2f1dc93a1",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -3924,7 +4001,6 @@
      }
     ],
     "status": "active",
-    "name": "Makrellbekken - Dronningfossen",
     "description": "OneAquaHealth research site O4, Oslo",
     "mode": "instance",
     "type": [
@@ -3944,7 +4020,8 @@
     "position": {
      "longitude": 10.6778,
      "latitude": 59.9308
-    }
+    },
+    "name": "Makrellbekken - Dronningfossen"
    },
    "request": {
     "method": "POST",
@@ -3953,6 +4030,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:b39f2ce7-8426-5975-8e69-9f30e38567b5",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -3974,7 +4052,6 @@
      }
     ],
     "status": "active",
-    "name": "Ljanselva- Skullerud -",
     "description": "OneAquaHealth research site O6, Oslo",
     "mode": "instance",
     "type": [
@@ -3994,7 +4071,8 @@
     "position": {
      "longitude": 10.8458,
      "latitude": 59.8628
-    }
+    },
+    "name": "Ljanselva- Skullerud -"
    },
    "request": {
     "method": "POST",
@@ -4003,6 +4081,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:c95c9cf4-e573-58ca-afb8-06803d948cf9",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -4024,7 +4103,6 @@
      }
     ],
     "status": "active",
-    "name": "Ljanselvas mljøpark",
     "description": "OneAquaHealth research site O7, Oslo",
     "mode": "instance",
     "type": [
@@ -4044,7 +4122,8 @@
     "position": {
      "longitude": 10.8164,
      "latitude": 59.8511
-    }
+    },
+    "name": "Ljanselvas mljøpark"
    },
    "request": {
     "method": "POST",
@@ -4053,6 +4132,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:c9bb235d-f012-520a-b981-c974de95bf21",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -4074,7 +4154,6 @@
      }
     ],
     "status": "active",
-    "name": "Ljanselva – Nedre Ljan Nordstrand",
     "description": "OneAquaHealth research site O8, Oslo",
     "mode": "instance",
     "type": [
@@ -4094,7 +4173,8 @@
     "position": {
      "longitude": 10.7847,
      "latitude": 59.8433
-    }
+    },
+    "name": "Ljanselva – Nedre Ljan Nordstrand"
    },
    "request": {
     "method": "POST",
@@ -4103,6 +4183,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:e0882a2a-9a2f-5eb7-93d4-52ca15c3242f",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -4124,7 +4205,6 @@
      }
     ],
     "status": "active",
-    "name": "Gaustadbekken -Forskningsparketn",
     "description": "OneAquaHealth research site O9, Oslo",
     "mode": "instance",
     "type": [
@@ -4144,7 +4224,8 @@
     "position": {
      "longitude": 10.7181,
      "latitude": 59.9425
-    }
+    },
+    "name": "Gaustadbekken -Forskningsparketn"
    },
    "request": {
     "method": "POST",
@@ -4153,6 +4234,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:e53e15bc-23bb-5958-9980-a03d1fffe7ac",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -4174,7 +4256,6 @@
      }
     ],
     "status": "active",
-    "name": "Frognerelva - VInderen",
     "description": "OneAquaHealth research site O10, Oslo",
     "mode": "instance",
     "type": [
@@ -4194,7 +4275,8 @@
     "position": {
      "longitude": 10.7097,
      "latitude": 59.9414
-    }
+    },
+    "name": "Frognerelva - VInderen"
    },
    "request": {
     "method": "POST",
@@ -4203,6 +4285,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:558e8acc-77ad-520a-bc9a-9e4fd18175db",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -4224,7 +4307,6 @@
      }
     ],
     "status": "active",
-    "name": "Mærradalsbekken - Radiumhospital",
     "description": "OneAquaHealth research site O11, Oslo",
     "mode": "instance",
     "type": [
@@ -4244,7 +4326,8 @@
     "position": {
      "longitude": 10.6594,
      "latitude": 59.9297
-    }
+    },
+    "name": "Mærradalsbekken - Radiumhospital"
    },
    "request": {
     "method": "POST",
@@ -4253,6 +4336,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:41f836e2-6c32-5898-b3c5-9c536a737082",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -4274,7 +4358,6 @@
      }
     ],
     "status": "active",
-    "name": "Makrellbekken – ring3",
     "description": "OneAquaHealth research site O12, Oslo",
     "mode": "instance",
     "type": [
@@ -4294,7 +4377,8 @@
     "position": {
      "longitude": 10.6736,
      "latitude": 59.9356
-    }
+    },
+    "name": "Makrellbekken – ring3"
    },
    "request": {
     "method": "POST",
@@ -4303,6 +4387,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:5bdc0126-c448-5c1a-9687-4a9cc6bd1a1f",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -4324,7 +4409,6 @@
      }
     ],
     "status": "active",
-    "name": "Mærradalsbekken – Huseby skole",
     "description": "OneAquaHealth research site O13, Oslo",
     "mode": "instance",
     "type": [
@@ -4344,7 +4428,8 @@
     "position": {
      "longitude": 10.6503,
      "latitude": 59.945
-    }
+    },
+    "name": "Mærradalsbekken – Huseby skole"
    },
    "request": {
     "method": "POST",
@@ -4353,6 +4438,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:756322d9-8690-554c-a1ae-544cc246ce51",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -4374,7 +4460,6 @@
      }
     ],
     "status": "active",
-    "name": "Hovinbekken - Krokliveien",
     "description": "OneAquaHealth research site O14, Oslo",
     "mode": "instance",
     "type": [
@@ -4394,7 +4479,8 @@
     "position": {
      "longitude": 10.8214,
      "latitude": 59.9392
-    }
+    },
+    "name": "Hovinbekken - Krokliveien"
    },
    "request": {
     "method": "POST",
@@ -4403,6 +4489,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:918ae82a-1ddc-5d1a-9dfc-a0bb970ab62e",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -4424,7 +4511,6 @@
      }
     ],
     "status": "active",
-    "name": "Hovinbekken - Hovin",
     "description": "OneAquaHealth research site O15, Oslo",
     "mode": "instance",
     "type": [
@@ -4444,7 +4530,8 @@
     "position": {
      "longitude": 10.8006,
      "latitude": 59.9206
-    }
+    },
+    "name": "Hovinbekken - Hovin"
    },
    "request": {
     "method": "POST",
@@ -4453,6 +4540,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:b5468e53-687b-5675-86bd-1f1d8a2f7698",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -4474,7 +4562,6 @@
      }
     ],
     "status": "active",
-    "name": "Alna - Kværnerfossene",
     "description": "OneAquaHealth research site O16, Oslo",
     "mode": "instance",
     "type": [
@@ -4494,7 +4581,8 @@
     "position": {
      "longitude": 10.7944,
      "latitude": 59.9044
-    }
+    },
+    "name": "Alna - Kværnerfossene"
    },
    "request": {
     "method": "POST",
@@ -4503,6 +4591,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:e8f7acf9-4415-5fd3-b7da-fd26f08ac97c",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -4524,7 +4613,6 @@
      }
     ],
     "status": "active",
-    "name": "Alna – v Tveita / plantasjen-",
     "description": "OneAquaHealth research site O18, Oslo",
     "mode": "instance",
     "type": [
@@ -4544,7 +4632,8 @@
     "position": {
      "longitude": 10.8369,
      "latitude": 59.9219
-    }
+    },
+    "name": "Alna – v Tveita / plantasjen-"
    },
    "request": {
     "method": "POST",
@@ -4553,6 +4642,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:b99789b8-ea03-599e-924f-084c68289904",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -4574,7 +4664,6 @@
      }
     ],
     "status": "active",
-    "name": "Alna - Grorud",
     "description": "OneAquaHealth research site O19, Oslo",
     "mode": "instance",
     "type": [
@@ -4594,7 +4683,8 @@
     "position": {
      "longitude": 10.9017,
      "latitude": 59.9525
-    }
+    },
+    "name": "Alna - Grorud"
    },
    "request": {
     "method": "POST",
@@ -4603,6 +4693,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:35829806-8453-58c1-83eb-845090f3f965",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -4624,7 +4715,6 @@
      }
     ],
     "status": "active",
-    "name": "Makrellbekken - Njård",
     "description": "OneAquaHealth research site O20, Oslo",
     "mode": "instance",
     "type": [
@@ -4644,7 +4734,8 @@
     "position": {
      "longitude": 10.6736,
      "latitude": 59.9432
-    }
+    },
+    "name": "Makrellbekken - Njård"
    },
    "request": {
     "method": "POST",
@@ -4653,6 +4744,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:b727eb81-5621-590f-b023-9832a1d4c57b",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -4674,7 +4766,6 @@
      }
     ],
     "status": "active",
-    "name": "Canal de Saint Martory",
     "description": "OneAquaHealth research site T10, Toulouse",
     "mode": "instance",
     "type": [
@@ -4694,7 +4785,8 @@
     "position": {
      "longitude": 1.32265,
      "latitude": 43.5322
-    }
+    },
+    "name": "Canal de Saint Martory"
    },
    "request": {
     "method": "POST",
@@ -4703,6 +4795,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:2eccba7a-a4a4-5ba3-93e6-fd2257ae2550",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -4724,7 +4817,6 @@
      }
     ],
     "status": "active",
-    "name": "Fossé de Larramet médian",
     "description": "OneAquaHealth research site T12, Toulouse",
     "mode": "instance",
     "type": [
@@ -4744,7 +4836,8 @@
     "position": {
      "longitude": 1.34077,
      "latitude": 43.54003
-    }
+    },
+    "name": "Fossé de Larramet médian"
    },
    "request": {
     "method": "POST",
@@ -4753,6 +4846,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:61b1d9b3-d4f1-5feb-b88b-66b7a9430d5f",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -4774,7 +4868,6 @@
      }
     ],
     "status": "active",
-    "name": "Ruisseau du Roussimort aval",
     "description": "OneAquaHealth research site T13, Toulouse",
     "mode": "instance",
     "type": [
@@ -4794,7 +4887,8 @@
     "position": {
      "longitude": 1.37785,
      "latitude": 43.5353
-    }
+    },
+    "name": "Ruisseau du Roussimort aval"
    },
    "request": {
     "method": "POST",
@@ -4803,6 +4897,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:f75a004c-2c7d-5d3d-b7ec-f15d17db69d4",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -4824,7 +4919,6 @@
      }
     ],
     "status": "active",
-    "name": "Canal agricole (depuis la Saudrune)",
     "description": "OneAquaHealth research site T14, Toulouse",
     "mode": "instance",
     "type": [
@@ -4844,7 +4938,8 @@
     "position": {
      "longitude": 1.42074,
      "latitude": 43.53855
-    }
+    },
+    "name": "Canal agricole (depuis la Saudrune)"
    },
    "request": {
     "method": "POST",
@@ -4853,6 +4948,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:61d1e6ac-13b9-51cc-87c5-0a8b4e5ff8a1",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -4874,7 +4970,6 @@
      }
     ],
     "status": "active",
-    "name": "Fossé de pluvial avant rejet dans fossé de Larramet",
     "description": "OneAquaHealth research site T17, Toulouse",
     "mode": "instance",
     "type": [
@@ -4894,7 +4989,8 @@
     "position": {
      "longitude": 1.35861,
      "latitude": 43.5786
-    }
+    },
+    "name": "Fossé de pluvial avant rejet dans fossé de Larramet"
    },
    "request": {
     "method": "POST",
@@ -4903,6 +4999,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:f662c842-c2f0-540b-8608-b3d7d7b5d184",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -4924,7 +5021,6 @@
      }
     ],
     "status": "active",
-    "name": "Ousseau",
     "description": "OneAquaHealth research site T18, Toulouse",
     "mode": "instance",
     "type": [
@@ -4944,7 +5040,8 @@
     "position": {
      "longitude": 1.35262,
      "latitude": 43.57882
-    }
+    },
+    "name": "Ousseau"
    },
    "request": {
     "method": "POST",
@@ -4953,6 +5050,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:3c07c033-72c1-5954-aaf0-7e1251df6987",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -4974,7 +5072,6 @@
      }
     ],
     "status": "active",
-    "name": "Touch",
     "description": "OneAquaHealth research site T19, Toulouse",
     "mode": "instance",
     "type": [
@@ -4994,7 +5091,8 @@
     "position": {
      "longitude": 1.35047,
      "latitude": 43.58253
-    }
+    },
+    "name": "Touch"
    },
    "request": {
     "method": "POST",
@@ -5003,6 +5101,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:1f597d38-f5db-5d65-a0b8-ddbf76ac0750",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -5024,7 +5123,6 @@
      }
     ],
     "status": "active",
-    "name": "Canal de Moulin",
     "description": "OneAquaHealth research site T20, Toulouse",
     "mode": "instance",
     "type": [
@@ -5044,7 +5142,8 @@
     "position": {
      "longitude": 1.3493,
      "latitude": 43.5828
-    }
+    },
+    "name": "Canal de Moulin"
    },
    "request": {
     "method": "POST",
@@ -5053,6 +5152,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:51c3a95e-1ec6-5d8b-b823-bf825f39788d",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -5074,7 +5174,6 @@
      }
     ],
     "status": "active",
-    "name": "Hers",
     "description": "OneAquaHealth research site T4, Toulouse",
     "mode": "instance",
     "type": [
@@ -5094,7 +5193,8 @@
     "position": {
      "longitude": 1.49464,
      "latitude": 43.56499
-    }
+    },
+    "name": "Hers"
    },
    "request": {
     "method": "POST",
@@ -5103,6 +5203,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:66b57234-49c2-5838-9832-0d2677c585b6",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -5124,7 +5225,6 @@
      }
     ],
     "status": "active",
-    "name": "Fossé de Larramet amont",
     "description": "OneAquaHealth research site T11, Toulouse",
     "mode": "instance",
     "type": [
@@ -5144,7 +5244,8 @@
     "position": {
      "longitude": 1.32597,
      "latitude": 43.52992
-    }
+    },
+    "name": "Fossé de Larramet amont"
    },
    "request": {
     "method": "POST",
@@ -5153,6 +5254,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:28c22833-554b-5dc7-aa3b-5c44b94e52b3",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -5174,7 +5276,6 @@
      }
     ],
     "status": "active",
-    "name": "Ruisseau de l’Armurié",
     "description": "OneAquaHealth research site T25, Toulouse",
     "mode": "instance",
     "type": [
@@ -5194,7 +5295,8 @@
     "position": {
      "longitude": 1.51501,
      "latitude": 43.64862
-    }
+    },
+    "name": "Ruisseau de l’Armurié"
    },
    "request": {
     "method": "POST",
@@ -5203,6 +5305,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:da0b5e28-7bbb-5191-a44e-a40ef07faf23",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -5224,7 +5327,6 @@
      }
     ],
     "status": "active",
-    "name": "Fossé de Larramet aval",
     "description": "OneAquaHealth research site T16, Toulouse",
     "mode": "instance",
     "type": [
@@ -5244,7 +5346,8 @@
     "position": {
      "longitude": 1.35929,
      "latitude": 43.57895
-    }
+    },
+    "name": "Fossé de Larramet aval"
    },
    "request": {
     "method": "POST",
@@ -5253,6 +5356,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:afb4849d-58a1-5c20-97c0-b6af6940ef52",
    "resource": {
     "resourceType": "Location",
     "meta": {
@@ -5274,7 +5378,6 @@
      }
     ],
     "status": "active",
-    "name": "Ruisseau de l’Armurié",
     "description": "OneAquaHealth research site T22, Toulouse",
     "mode": "instance",
     "type": [
@@ -5294,7 +5397,8 @@
     "position": {
      "longitude": 1.36657,
      "latitude": 43.59608
-    }
+    },
+    "name": "Ruisseau de l’Armurié"
    },
    "request": {
     "method": "POST",

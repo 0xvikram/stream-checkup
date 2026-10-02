@@ -19,6 +19,11 @@ class Location(unittest.TestCase):
         self.assertEqual(loc["address"]["city"], "Coimbra")
 
 
+    def test_a_stream_with_no_name_gets_no_name_field(self):
+        self.assertNotIn("name", fhir.location({**STREAM, "name": ""}))
+        self.assertNotIn("name", fhir.location({**STREAM, "name": "  "}))
+
+
 class RecordProblem(unittest.TestCase):
     def test_points_at_the_original_and_never_replaces_it(self):
         issue = fhir.record_problem(FOUND, "2026-10-03")
@@ -47,6 +52,13 @@ class Bundle(unittest.TestCase):
             f"identifier={fhir.ISSUE_IDS}|Obs-Almyros-Ph-2020",
         ])
         self.assertTrue(all(e["request"]["method"] == "POST" for e in bundle["entry"]))
+
+    def test_every_entry_has_a_stable_address(self):
+        make = lambda: fhir.create_if_absent([fhir.location(STREAM), fhir.record_problem(FOUND, "2026-10-03")])
+        urls = [e["fullUrl"] for e in make()["entry"]]
+        self.assertTrue(all(u.startswith("urn:uuid:") for u in urls))
+        self.assertEqual(len(set(urls)), 2)
+        self.assertEqual(urls, [e["fullUrl"] for e in make()["entry"]])
 
 
 if __name__ == "__main__":

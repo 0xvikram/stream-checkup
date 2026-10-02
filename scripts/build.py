@@ -36,7 +36,8 @@ def build_streams(snapshot_day):
         since_day = lab_day or (weather[0]["d"] if weather else None)
         streams.append({
             "code": code,
-            "name": site["name"],
+            "name": site["name"].strip() or f"Unnamed stream {code}",
+            "unnamed": not site["name"].strip(),
             "city": site["city"]["name"],
             "lat": site["latitude"],
             "lon": site["longitude"],
@@ -248,6 +249,14 @@ def build_problems(streams, citizen_sites, snapshot_day):
         "Stream Check-up marks them 'Never checked' and puts them at the top of the list.",
         "us",
         [{"label": f"{s['name']} ({s['code']})", "detail": s["city"], "url": None} for s in never])
+
+    unnamed = [s for s in streams if s["unnamed"]]
+    add("unnamed", "Research streams with no name", len(unnamed),
+        f"{len(unnamed)} research streams have an empty name in the map data.",
+        "A stream with no name cannot be asked about, searched for or put in a report.",
+        "Give each stream its name. Until then Stream Check-up shows them as 'Unnamed stream' with their code.",
+        "them",
+        [{"label": s["code"], "detail": s["city"], "url": None} for s in unnamed])
 
     lab_years = Counter(s["lab"]["date"][:4] for s in streams if s["lab"])
     oldest_year, oldest_count = lab_years.most_common(1)[0]

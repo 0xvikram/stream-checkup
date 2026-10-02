@@ -3,6 +3,7 @@
  "type": "transaction",
  "entry": [
   {
+   "fullUrl": "urn:uuid:3f3b3060-69b5-5f14-a986-c3c163193ec9",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -50,6 +51,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:824a576e-074c-5600-bf1e-9ea677e73391",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -97,6 +99,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:ceac1118-f518-5fba-b4f4-2015cbed747f",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -144,6 +147,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:6c4eda40-a2bc-5bde-8ccc-133f130f4f79",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -191,6 +195,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:c927e02e-9ca0-5b20-90a0-279a3909a92e",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -238,6 +243,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:ba785807-93bf-54aa-9c19-0be6b7d177ba",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -285,6 +291,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:ee2518b2-7415-58a0-8e08-3eca3b0ddc39",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -332,6 +339,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:9126ea6c-0882-5dbb-b55d-d16a3a431dc6",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -379,6 +387,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:5a3854da-0f19-5100-9c4d-b558b67f2031",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -426,6 +435,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:45c7c961-c530-552e-8d95-b6d3b6f34cac",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -473,6 +483,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:a8776b8f-b0b8-5a41-bd92-8ccaa78037d3",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -520,6 +531,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:3525b3f8-f0f7-5079-a2b6-115c764a401b",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -567,6 +579,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:4537da9a-fb9b-5369-96cf-e06a7423930b",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -614,6 +627,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:4cfaf691-2627-5f90-acad-7451c82ca0c0",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -661,6 +675,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:7374248e-8e95-56d8-829e-1e7d937ca973",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -708,6 +723,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:1270a29a-326e-5524-ba02-e1715bd38607",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -755,6 +771,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:5cd4f6d2-ce33-5329-92e3-11eaf92632a6",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -802,6 +819,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:142961bb-5770-565c-90cf-f873d2c14686",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -849,6 +867,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:aca95276-236a-5b26-9300-1dc5080fde8c",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -896,6 +915,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:abfa1349-2f45-5715-acaa-1fd52d51bdd6",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -943,6 +963,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:0a21cf78-179b-58bc-849f-31f541504b59",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -990,6 +1011,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:5bca1789-7500-5985-a3a2-a746c7019105",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -1037,6 +1059,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:7fac9d2e-d5bd-5e39-9b6b-a76c59d09c3d",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -1084,6 +1107,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:d9f11e0f-6d07-5906-9f3d-f0a3bee186e3",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -1131,6 +1155,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:44eed544-3569-51c5-b54b-92406a10ee55",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -1178,6 +1203,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:0394fc9a-6b3f-5054-b375-9467ba9f4475",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -1225,6 +1251,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:ae1a3edd-9404-56aa-85de-b79fb0b7c7f5",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -1272,6 +1299,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:d73fb37e-81eb-5b52-a9e1-c0b89783505a",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -1319,6 +1347,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:e0956ab4-81bf-5146-b1c3-e86d3b283f99",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -1366,6 +1395,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:b327ea0b-5c0c-56ac-8940-fb74109c6180",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -1413,6 +1443,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:c5b5d95a-acad-591b-b74e-3b5f83586232",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -1460,6 +1491,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:de438282-8cbc-5c1a-9f7e-cf1a62e2c758",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -1507,6 +1539,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:9371ebd9-29a5-5914-a75e-fe6b351ccf01",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -1554,6 +1587,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:178fffa4-9a40-5e06-917a-4f599e97649f",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -1601,6 +1635,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:5be29634-59ff-59fb-b11b-ec2d8ab501ce",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -1648,6 +1683,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:d1808553-d821-52ff-8054-0859d3ac6538",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -1695,6 +1731,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:8012898f-0eeb-59ff-bfa7-38eb9afd6bed",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -1742,6 +1779,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:a9aa289b-70f7-59e6-a933-93dae7311d17",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -1789,6 +1827,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:1efc6b2f-a187-5d4a-8a4b-50f66a40ebd0",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -1836,6 +1875,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:ef3a7559-26e7-5408-8d4d-3290ccb9abc5",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -1883,6 +1923,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:7a95d57d-07d1-51bb-92c4-edfc095d45e0",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -1930,6 +1971,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:7c2f225a-819c-558f-9e20-2ce437cff3ce",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -1977,6 +2019,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:dd8fb634-9b81-5845-b7dc-554ea2213103",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -2024,6 +2067,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:eff6046a-caeb-525a-8a2b-725389c09c5e",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -2071,6 +2115,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:5b2d22c2-19fa-5368-beb5-3253b2e72484",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -2118,6 +2163,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:3b674926-c1ad-5151-89a0-8c81c4c383e4",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -2165,6 +2211,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:6e3be895-d5a8-5e72-adba-12a8e6e354fa",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -2212,6 +2259,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:d51d1cad-f06f-564e-86a4-1fcb3755e1f2",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -2259,6 +2307,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:5c426883-66ac-5251-bebe-6d3faf55b2cc",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -2306,6 +2355,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:044b8fa9-2fa1-5d0e-95c0-e966ac8fed3c",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {
@@ -2353,6 +2403,7 @@
    }
   },
   {
+   "fullUrl": "urn:uuid:90106077-5dc0-5258-bac8-fd17df69f616",
    "resource": {
     "resourceType": "DetectedIssue",
     "meta": {

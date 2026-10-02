@@ -6,6 +6,8 @@ Pure builders, no network. Two kinds of record:
   - DetectedIssue  a note pinned to a record that cannot be right, with the likely
                    correction. The original record is never changed.
 """
+import uuid
+
 SITE_CODES = "https://api.enora-oah.eu/api/sites"
 TAGS = "urn:stream-checkup:tags"
 ISSUE_IDS = "urn:stream-checkup:record-problem"
@@ -18,18 +20,20 @@ def tag(code, display):
 
 
 def location(stream):
-    return {
+    record = {
         "resourceType": "Location",
         "meta": {"profile": [LOCATION_PROFILE], "tag": [tag("site-link", "Stream Check-up site link")]},
         "identifier": [{"system": SITE_CODES, "value": stream["code"]}],
         "status": "active",
-        "name": stream["name"],
         "description": f"OneAquaHealth research site {stream['code']}, {stream['city']}",
         "mode": "instance",
         "type": [{"coding": [RIVER]}],
         "address": {"city": stream["city"]},
         "position": {"longitude": stream["lon"], "latitude": stream["lat"]},
     }
+    if stream["name"].strip():  # two research sites have no name in the map data; an empty name is invalid
+        record["name"] = stream["name"].strip()
+    return record
 
 
 def record_problem(found, today):
@@ -63,6 +67,8 @@ def create_if_absent(resources):
     for res in resources:
         ident = res["identifier"][0]
         entries.append({
+            # the same record always gets the same address, so bundles are repeatable
+            "fullUrl": f"urn:uuid:{uuid.uuid5(uuid.NAMESPACE_URL, ident['system'] + '|' + ident['value'])}",
             "resource": res,
             "request": {
                 "method": "POST",

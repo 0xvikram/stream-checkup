@@ -4,6 +4,8 @@
 
 Built for the OneAquaHealth IEEE Global Hackathon 2026 · **Track 2: Data-to-Insight**
 
+**Live:** https://stream-checkup.vercel.app · **Record problems:** https://stream-checkup.vercel.app/#/records
+
 ## The problem
 
 OneAquaHealth watches 106 urban streams in five European cities. Its own public data shows:
@@ -94,6 +96,7 @@ All counts are from the snapshot of 3 October 2026 and are recomputed on every b
 | 104 | Streams with no shared name between the two systems | Stream Check-up |
 | 9 | Try-out entries on the public list of citizen streams | Stream Check-up |
 | 10 | Research streams with no lab result | Stream Check-up |
+| 2 | Research streams with an empty name | OneAquaHealth data team |
 | 1 | The health-data system answers web pages with two "allow" headers, so browsers refuse it | OneAquaHealth data team |
 
 ## How it is built
@@ -105,7 +108,7 @@ scripts/build.py     writes web/public/data.json and one summary per day in data
 scripts/fhir.py      the records we write (stream links, pinned notes), as pure builders
 scripts/publish.py   sends them; prints a dry run unless given --send; never creates duplicates
 scripts/twin_test.py the "can maps predict stream health" test
-tests/               28 tests on the rules and the records
+tests/               30 tests on the rules and the records
 web/                 the site (React, Vite, Leaflet with OpenStreetMap)
 .github/workflows/   nightly.yml (the watchdog), validate.yml (official HL7 validator)
 ```
