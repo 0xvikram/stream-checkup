@@ -1,0 +1,5306 @@
+{
+ "resourceType": "Bundle",
+ "type": "transaction",
+ "entry": [
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "C1"
+     }
+    ],
+    "status": "active",
+    "name": "Exploratório",
+    "description": "OneAquaHealth research site C1, Coimbra",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Coimbra"
+    },
+    "position": {
+     "longitude": -8.42865,
+     "latitude": 40.19787
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|C1"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "C2"
+     }
+    ],
+    "status": "active",
+    "name": "Estação Cbr-B",
+    "description": "OneAquaHealth research site C2, Coimbra",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Coimbra"
+    },
+    "position": {
+     "longitude": -8.44135,
+     "latitude": 40.22483
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|C2"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "C3"
+     }
+    ],
+    "status": "active",
+    "name": "Vale das Flores",
+    "description": "OneAquaHealth research site C3, Coimbra",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Coimbra"
+    },
+    "position": {
+     "longitude": -8.41945,
+     "latitude": 40.19307
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|C3"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "C4"
+     }
+    ],
+    "status": "active",
+    "name": "Eiras",
+    "description": "OneAquaHealth research site C4, Coimbra",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Coimbra"
+    },
+    "position": {
+     "longitude": -8.43659,
+     "latitude": 40.25289
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|C4"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "C5"
+     }
+    ],
+    "status": "active",
+    "name": "Mina Hospital",
+    "description": "OneAquaHealth research site C5, Coimbra",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Coimbra"
+    },
+    "position": {
+     "longitude": -8.42733,
+     "latitude": 40.2186
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|C5"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "C6"
+     }
+    ],
+    "status": "active",
+    "name": "Casa do Sal",
+    "description": "OneAquaHealth research site C6, Coimbra",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Coimbra"
+    },
+    "position": {
+     "longitude": -8.43772,
+     "latitude": 40.21942
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|C6"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "C7"
+     }
+    ],
+    "status": "active",
+    "name": "São Romão",
+    "description": "OneAquaHealth research site C7, Coimbra",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Coimbra"
+    },
+    "position": {
+     "longitude": -8.40165,
+     "latitude": 40.22243
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|C7"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "C8"
+     }
+    ],
+    "status": "active",
+    "name": "Covões",
+    "description": "OneAquaHealth research site C8, Coimbra",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Coimbra"
+    },
+    "position": {
+     "longitude": -8.46002,
+     "latitude": 40.19133
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|C8"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "C9"
+     }
+    ],
+    "status": "active",
+    "name": "Fornos",
+    "description": "OneAquaHealth research site C9, Coimbra",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Coimbra"
+    },
+    "position": {
+     "longitude": -8.4272,
+     "latitude": 40.27702
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|C9"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "C10"
+     }
+    ],
+    "status": "active",
+    "name": "Arregaça",
+    "description": "OneAquaHealth research site C10, Coimbra",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Coimbra"
+    },
+    "position": {
+     "longitude": -8.41773,
+     "latitude": 40.19776
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|C10"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "C11"
+     }
+    ],
+    "status": "active",
+    "name": "Bairro São Miguel",
+    "description": "OneAquaHealth research site C11, Coimbra",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Coimbra"
+    },
+    "position": {
+     "longitude": -8.43757,
+     "latitude": 40.22752
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|C11"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "C12"
+     }
+    ],
+    "status": "active",
+    "name": "Escola Agrária",
+    "description": "OneAquaHealth research site C12, Coimbra",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Coimbra"
+    },
+    "position": {
+     "longitude": -8.45302,
+     "latitude": 40.20386
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|C12"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "C13"
+     }
+    ],
+    "status": "active",
+    "name": "Condeixa",
+    "description": "OneAquaHealth research site C13, Coimbra",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Coimbra"
+    },
+    "position": {
+     "longitude": -8.49052,
+     "latitude": 40.11106
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|C13"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "C14"
+     }
+    ],
+    "status": "active",
+    "name": "Antanhol",
+    "description": "OneAquaHealth research site C14, Coimbra",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Coimbra"
+    },
+    "position": {
+     "longitude": -8.47817,
+     "latitude": 40.16719
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|C14"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "C15"
+     }
+    ],
+    "status": "active",
+    "name": "Copeira",
+    "description": "OneAquaHealth research site C15, Coimbra",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Coimbra"
+    },
+    "position": {
+     "longitude": -8.42117,
+     "latitude": 40.17943
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|C15"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "C16"
+     }
+    ],
+    "status": "active",
+    "name": "Rio Velho",
+    "description": "OneAquaHealth research site C16, Coimbra",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Coimbra"
+    },
+    "position": {
+     "longitude": -8.44304,
+     "latitude": 40.22461
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|C16"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "C17"
+     }
+    ],
+    "status": "active",
+    "name": "Conraria",
+    "description": "OneAquaHealth research site C17, Coimbra",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Coimbra"
+    },
+    "position": {
+     "longitude": -8.39363,
+     "latitude": 40.17422
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|C17"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "C18"
+     }
+    ],
+    "status": "active",
+    "name": "Ponte da Espertina",
+    "description": "OneAquaHealth research site C18, Coimbra",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Coimbra"
+    },
+    "position": {
+     "longitude": -8.45312,
+     "latitude": 40.25621
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|C18"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "C19"
+     }
+    ],
+    "status": "active",
+    "name": "Escravote",
+    "description": "OneAquaHealth research site C19, Coimbra",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Coimbra"
+    },
+    "position": {
+     "longitude": -8.41159,
+     "latitude": 40.24812
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|C19"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "C20"
+     }
+    ],
+    "status": "active",
+    "name": "Corujeira",
+    "description": "OneAquaHealth research site C20, Coimbra",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Coimbra"
+    },
+    "position": {
+     "longitude": -8.47667,
+     "latitude": 40.21085
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|C20"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "T21"
+     }
+    ],
+    "status": "active",
+    "name": "",
+    "description": "OneAquaHealth research site T21, Toulouse",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Toulouse"
+    },
+    "position": {
+     "longitude": 1.34767,
+     "latitude": 43.59278
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|T21"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "T24"
+     }
+    ],
+    "status": "active",
+    "name": "",
+    "description": "OneAquaHealth research site T24, Toulouse",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Toulouse"
+    },
+    "position": {
+     "longitude": 1.36671,
+     "latitude": 43.59604
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|T24"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "G2"
+     }
+    ],
+    "status": "active",
+    "name": "Zottegem1 (Zo1)",
+    "description": "OneAquaHealth research site G2, Ghent",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Ghent"
+    },
+    "position": {
+     "longitude": 3.79794,
+     "latitude": 50.85943
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|G2"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "BN1"
+     }
+    ],
+    "status": "active",
+    "name": "Capodimonte",
+    "description": "OneAquaHealth research site BN1, Benevento",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Benevento"
+    },
+    "position": {
+     "longitude": 14.80039,
+     "latitude": 41.13231
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|BN1"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "BN2"
+     }
+    ],
+    "status": "active",
+    "name": "Cretarossa",
+    "description": "OneAquaHealth research site BN2, Benevento",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Benevento"
+    },
+    "position": {
+     "longitude": 14.80333,
+     "latitude": 41.12679
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|BN2"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "BN3"
+     }
+    ],
+    "status": "active",
+    "name": "Ponticelli",
+    "description": "OneAquaHealth research site BN3, Benevento",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Benevento"
+    },
+    "position": {
+     "longitude": 14.78614,
+     "latitude": 41.13348
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|BN3"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "BN4"
+     }
+    ],
+    "status": "active",
+    "name": "Serretelle 4",
+    "description": "OneAquaHealth research site BN4, Benevento",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Benevento"
+    },
+    "position": {
+     "longitude": 14.74864,
+     "latitude": 41.12414
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|BN4"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "BN5"
+     }
+    ],
+    "status": "active",
+    "name": "Serretelle 5",
+    "description": "OneAquaHealth research site BN5, Benevento",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Benevento"
+    },
+    "position": {
+     "longitude": 14.74295,
+     "latitude": 41.10429
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|BN5"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "BN6"
+     }
+    ],
+    "status": "active",
+    "name": "Pezzapiano",
+    "description": "OneAquaHealth research site BN6, Benevento",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Benevento"
+    },
+    "position": {
+     "longitude": 14.78437,
+     "latitude": 41.14775
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|BN6"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "BN7"
+     }
+    ],
+    "status": "active",
+    "name": "Margiacca",
+    "description": "OneAquaHealth research site BN7, Benevento",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Benevento"
+    },
+    "position": {
+     "longitude": 14.81407,
+     "latitude": 41.14905
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|BN7"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "BN8"
+     }
+    ],
+    "status": "active",
+    "name": "Paduli",
+    "description": "OneAquaHealth research site BN8, Benevento",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Benevento"
+    },
+    "position": {
+     "longitude": 14.8345,
+     "latitude": 41.15405
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|BN8"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "BN9"
+     }
+    ],
+    "status": "active",
+    "name": "Vallone Cornacchie",
+    "description": "OneAquaHealth research site BN9, Benevento",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Benevento"
+    },
+    "position": {
+     "longitude": 14.8325,
+     "latitude": 41.11089
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|BN9"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "BN10"
+     }
+    ],
+    "status": "active",
+    "name": "Malacagna",
+    "description": "OneAquaHealth research site BN10, Benevento",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Benevento"
+    },
+    "position": {
+     "longitude": 14.76353,
+     "latitude": 41.14607
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|BN10"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "BN11"
+     }
+    ],
+    "status": "active",
+    "name": "Masseria Roseto",
+    "description": "OneAquaHealth research site BN11, Benevento",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Benevento"
+    },
+    "position": {
+     "longitude": 14.75972,
+     "latitude": 41.16124
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|BN11"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "BN12"
+     }
+    ],
+    "status": "active",
+    "name": "Vallone S. Vitale",
+    "description": "OneAquaHealth research site BN12, Benevento",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Benevento"
+    },
+    "position": {
+     "longitude": 14.73193,
+     "latitude": 41.13628
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|BN12"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "BN13"
+     }
+    ],
+    "status": "active",
+    "name": "Vallone la Ripa",
+    "description": "OneAquaHealth research site BN13, Benevento",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Benevento"
+    },
+    "position": {
+     "longitude": 14.73683,
+     "latitude": 41.11727
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|BN13"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "BN14"
+     }
+    ],
+    "status": "active",
+    "name": "Rocca - Tufara",
+    "description": "OneAquaHealth research site BN14, Benevento",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Benevento"
+    },
+    "position": {
+     "longitude": 14.70843,
+     "latitude": 41.06014
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|BN14"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "BN15"
+     }
+    ],
+    "status": "active",
+    "name": "Corvo Tressanti",
+    "description": "OneAquaHealth research site BN15, Benevento",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Benevento"
+    },
+    "position": {
+     "longitude": 14.70959,
+     "latitude": 41.06921
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|BN15"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "BN16"
+     }
+    ],
+    "status": "active",
+    "name": "Ranno",
+    "description": "OneAquaHealth research site BN16, Benevento",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Benevento"
+    },
+    "position": {
+     "longitude": 14.70876,
+     "latitude": 41.06923
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|BN16"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "BN17"
+     }
+    ],
+    "status": "active",
+    "name": "Lossauro",
+    "description": "OneAquaHealth research site BN17, Benevento",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Benevento"
+    },
+    "position": {
+     "longitude": 14.7127,
+     "latitude": 41.13221
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|BN17"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "BN18"
+     }
+    ],
+    "status": "active",
+    "name": "Jenga",
+    "description": "OneAquaHealth research site BN18, Benevento",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Benevento"
+    },
+    "position": {
+     "longitude": 14.70936,
+     "latitude": 41.15126
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|BN18"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "BN19"
+     }
+    ],
+    "status": "active",
+    "name": "Foeniculum",
+    "description": "OneAquaHealth research site BN19, Benevento",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Benevento"
+    },
+    "position": {
+     "longitude": 14.719005,
+     "latitude": 41.185791
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|BN19"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "BN20"
+     }
+    ],
+    "status": "active",
+    "name": "Lenta",
+    "description": "OneAquaHealth research site BN20, Benevento",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Benevento"
+    },
+    "position": {
+     "longitude": 14.68999,
+     "latitude": 41.213825
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|BN20"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "G6"
+     }
+    ],
+    "status": "active",
+    "name": "Zwalm2 (Zw2)",
+    "description": "OneAquaHealth research site G6, Ghent",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Ghent"
+    },
+    "position": {
+     "longitude": 3.75151,
+     "latitude": 50.87579
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|G6"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "T1"
+     }
+    ],
+    "status": "active",
+    "name": "Ruisseau du Palays",
+    "description": "OneAquaHealth research site T1, Toulouse",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Toulouse"
+    },
+    "position": {
+     "longitude": 1.49147,
+     "latitude": 43.55267
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|T1"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "T3"
+     }
+    ],
+    "status": "active",
+    "name": "Ruisseau de Bonneval amont",
+    "description": "OneAquaHealth research site T3, Toulouse",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Toulouse"
+    },
+    "position": {
+     "longitude": 1.47439,
+     "latitude": 43.52756
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|T3"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "G8"
+     }
+    ],
+    "status": "active",
+    "name": "Zwalm4 (Zw4)",
+    "description": "OneAquaHealth research site G8, Ghent",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Ghent"
+    },
+    "position": {
+     "longitude": 3.73771,
+     "latitude": 50.87971
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|G8"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "G9"
+     }
+    ],
+    "status": "active",
+    "name": "Zwalm5 (Zw5)",
+    "description": "OneAquaHealth research site G9, Ghent",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Ghent"
+    },
+    "position": {
+     "longitude": 3.73125,
+     "latitude": 50.87366
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|G9"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "G10"
+     }
+    ],
+    "status": "active",
+    "name": "Zwalm6 (Zw6)",
+    "description": "OneAquaHealth research site G10, Ghent",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Ghent"
+    },
+    "position": {
+     "longitude": 3.71431,
+     "latitude": 50.88344
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|G10"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "G22"
+     }
+    ],
+    "status": "active",
+    "name": "Zwalm7 (Zw7)",
+    "description": "OneAquaHealth research site G22, Ghent",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Ghent"
+    },
+    "position": {
+     "longitude": 3.692821,
+     "latitude": 50.88527
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|G22"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "G11"
+     }
+    ],
+    "status": "active",
+    "name": "Zwalm8 (Zw8)",
+    "description": "OneAquaHealth research site G11, Ghent",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Ghent"
+    },
+    "position": {
+     "longitude": 3.68791,
+     "latitude": 50.88437
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|G11"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "G12"
+     }
+    ],
+    "status": "active",
+    "name": "Zwalm9 (Zw9)",
+    "description": "OneAquaHealth research site G12, Ghent",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Ghent"
+    },
+    "position": {
+     "longitude": 3.68606,
+     "latitude": 50.88541
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|G12"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "G13"
+     }
+    ],
+    "status": "active",
+    "name": "Merelbeke1 (Mr1)",
+    "description": "OneAquaHealth research site G13, Ghent",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Ghent"
+    },
+    "position": {
+     "longitude": 3.72241,
+     "latitude": 50.97958
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|G13"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "G14"
+     }
+    ],
+    "status": "active",
+    "name": "Merelbeke2 (Mr2)",
+    "description": "OneAquaHealth research site G14, Ghent",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Ghent"
+    },
+    "position": {
+     "longitude": 3.73925,
+     "latitude": 50.99821
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|G14"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "G15"
+     }
+    ],
+    "status": "active",
+    "name": "Melle1 (Ml1)",
+    "description": "OneAquaHealth research site G15, Ghent",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Ghent"
+    },
+    "position": {
+     "longitude": 3.80615,
+     "latitude": 50.98975
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|G15"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "G16"
+     }
+    ],
+    "status": "active",
+    "name": "Melle2 (Ml2)",
+    "description": "OneAquaHealth research site G16, Ghent",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Ghent"
+    },
+    "position": {
+     "longitude": 3.80568,
+     "latitude": 50.99491
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|G16"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "G17"
+     }
+    ],
+    "status": "active",
+    "name": "Gent1 (G1)",
+    "description": "OneAquaHealth research site G17, Ghent",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Ghent"
+    },
+    "position": {
+     "longitude": 3.77389,
+     "latitude": 51.02678
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|G17"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "G18"
+     }
+    ],
+    "status": "active",
+    "name": "Gent2 (G2)",
+    "description": "OneAquaHealth research site G18, Ghent",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Ghent"
+    },
+    "position": {
+     "longitude": 3.68126,
+     "latitude": 51.05458
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|G18"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "O17"
+     }
+    ],
+    "status": "active",
+    "name": "Alna – Bryn stasjon",
+    "description": "OneAquaHealth research site O17, Oslo",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Oslo"
+    },
+    "position": {
+     "longitude": 10.8128,
+     "latitude": 59.9078
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|O17"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "G1"
+     }
+    ],
+    "status": "active",
+    "name": "Oosterzele1 (O1)",
+    "description": "OneAquaHealth research site G1, Ghent",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Ghent"
+    },
+    "position": {
+     "longitude": 3.8168,
+     "latitude": 50.94744
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|G1"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "G4"
+     }
+    ],
+    "status": "active",
+    "name": "Zottegem3 (Zo3)",
+    "description": "OneAquaHealth research site G4, Ghent",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Ghent"
+    },
+    "position": {
+     "longitude": 3.80222,
+     "latitude": 50.87507
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|G4"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "G21"
+     }
+    ],
+    "status": "active",
+    "name": "Zottegem4 (Zo4)",
+    "description": "OneAquaHealth research site G21, Ghent",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Ghent"
+    },
+    "position": {
+     "longitude": 3.81558,
+     "latitude": 50.89162
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|G21"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "G5"
+     }
+    ],
+    "status": "active",
+    "name": "Zwalm1 (Zw1)",
+    "description": "OneAquaHealth research site G5, Ghent",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Ghent"
+    },
+    "position": {
+     "longitude": 3.74917,
+     "latitude": 50.87539
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|G5"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "T2"
+     }
+    ],
+    "status": "active",
+    "name": "Ruisseau de Bonneval aval",
+    "description": "OneAquaHealth research site T2, Toulouse",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Toulouse"
+    },
+    "position": {
+     "longitude": 1.46332,
+     "latitude": 43.53219
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|T2"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "G19"
+     }
+    ],
+    "status": "active",
+    "name": "Gent3 (G3)",
+    "description": "OneAquaHealth research site G19, Ghent",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Ghent"
+    },
+    "position": {
+     "longitude": 3.786,
+     "latitude": 51.02843
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|G19"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "G20"
+     }
+    ],
+    "status": "active",
+    "name": "Gent4 (G4)",
+    "description": "OneAquaHealth research site G20, Ghent",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Ghent"
+    },
+    "position": {
+     "longitude": 3.71687,
+     "latitude": 51.0939
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|G20"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "G3"
+     }
+    ],
+    "status": "active",
+    "name": "Zottegem2 (Zo2)",
+    "description": "OneAquaHealth research site G3, Ghent",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Ghent"
+    },
+    "position": {
+     "longitude": 3.75174,
+     "latitude": 50.87604
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|G3"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "T5"
+     }
+    ],
+    "status": "active",
+    "name": "Marcaissonne aval",
+    "description": "OneAquaHealth research site T5, Toulouse",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Toulouse"
+    },
+    "position": {
+     "longitude": 1.50937,
+     "latitude": 43.5678
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|T5"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "T6"
+     }
+    ],
+    "status": "active",
+    "name": "Marcaissonne amont",
+    "description": "OneAquaHealth research site T6, Toulouse",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Toulouse"
+    },
+    "position": {
+     "longitude": 1.51974,
+     "latitude": 43.56755
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|T6"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "T7"
+     }
+    ],
+    "status": "active",
+    "name": "Saune",
+    "description": "OneAquaHealth research site T7, Toulouse",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Toulouse"
+    },
+    "position": {
+     "longitude": 1.53609,
+     "latitude": 43.57873
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|T7"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "T8"
+     }
+    ],
+    "status": "active",
+    "name": "Ruisseau du Grand Port de Mer",
+    "description": "OneAquaHealth research site T8, Toulouse",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Toulouse"
+    },
+    "position": {
+     "longitude": 1.52861,
+     "latitude": 43.58553
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|T8"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "T9"
+     }
+    ],
+    "status": "active",
+    "name": "Ruisseau du Roussimort amont",
+    "description": "OneAquaHealth research site T9, Toulouse",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Toulouse"
+    },
+    "position": {
+     "longitude": 1.34273,
+     "latitude": 43.52152
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|T9"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "T15"
+     }
+    ],
+    "status": "active",
+    "name": "Fossé Mère (ou Ruisseau Le Négogousses)",
+    "description": "OneAquaHealth research site T15, Toulouse",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Toulouse"
+    },
+    "position": {
+     "longitude": 1.38535,
+     "latitude": 43.5713
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|T15"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "G7"
+     }
+    ],
+    "status": "active",
+    "name": "Zwalm3 (Zw3)",
+    "description": "OneAquaHealth research site G7, Ghent",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Ghent"
+    },
+    "position": {
+     "longitude": 3.76577,
+     "latitude": 50.86216
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|G7"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "O1"
+     }
+    ],
+    "status": "active",
+    "name": "Gaustadbekken-Skådalen",
+    "description": "OneAquaHealth research site O1, Oslo",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Oslo"
+    },
+    "position": {
+     "longitude": 10.7153,
+     "latitude": 59.9561
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|O1"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "O2"
+     }
+    ],
+    "status": "active",
+    "name": "Hoffsbekken",
+    "description": "OneAquaHealth research site O2, Oslo",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Oslo"
+    },
+    "position": {
+     "longitude": 10.6806,
+     "latitude": 59.9514
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|O2"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "O3"
+     }
+    ],
+    "status": "active",
+    "name": "Gaustadbekken-Slemdalsveien/RH",
+    "description": "OneAquaHealth research site O3, Oslo",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Oslo"
+    },
+    "position": {
+     "longitude": 10.7111,
+     "latitude": 59.9475
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|O3"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "O5"
+     }
+    ],
+    "status": "active",
+    "name": "Hoffselva - Møllhausen",
+    "description": "OneAquaHealth research site O5, Oslo",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Oslo"
+    },
+    "position": {
+     "longitude": 10.6769,
+     "latitude": 59.9308
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|O5"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "O4"
+     }
+    ],
+    "status": "active",
+    "name": "Makrellbekken - Dronningfossen",
+    "description": "OneAquaHealth research site O4, Oslo",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Oslo"
+    },
+    "position": {
+     "longitude": 10.6778,
+     "latitude": 59.9308
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|O4"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "O6"
+     }
+    ],
+    "status": "active",
+    "name": "Ljanselva- Skullerud -",
+    "description": "OneAquaHealth research site O6, Oslo",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Oslo"
+    },
+    "position": {
+     "longitude": 10.8458,
+     "latitude": 59.8628
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|O6"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "O7"
+     }
+    ],
+    "status": "active",
+    "name": "Ljanselvas mljøpark",
+    "description": "OneAquaHealth research site O7, Oslo",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Oslo"
+    },
+    "position": {
+     "longitude": 10.8164,
+     "latitude": 59.8511
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|O7"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "O8"
+     }
+    ],
+    "status": "active",
+    "name": "Ljanselva – Nedre Ljan Nordstrand",
+    "description": "OneAquaHealth research site O8, Oslo",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Oslo"
+    },
+    "position": {
+     "longitude": 10.7847,
+     "latitude": 59.8433
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|O8"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "O9"
+     }
+    ],
+    "status": "active",
+    "name": "Gaustadbekken -Forskningsparketn",
+    "description": "OneAquaHealth research site O9, Oslo",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Oslo"
+    },
+    "position": {
+     "longitude": 10.7181,
+     "latitude": 59.9425
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|O9"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "O10"
+     }
+    ],
+    "status": "active",
+    "name": "Frognerelva - VInderen",
+    "description": "OneAquaHealth research site O10, Oslo",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Oslo"
+    },
+    "position": {
+     "longitude": 10.7097,
+     "latitude": 59.9414
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|O10"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "O11"
+     }
+    ],
+    "status": "active",
+    "name": "Mærradalsbekken - Radiumhospital",
+    "description": "OneAquaHealth research site O11, Oslo",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Oslo"
+    },
+    "position": {
+     "longitude": 10.6594,
+     "latitude": 59.9297
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|O11"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "O12"
+     }
+    ],
+    "status": "active",
+    "name": "Makrellbekken – ring3",
+    "description": "OneAquaHealth research site O12, Oslo",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Oslo"
+    },
+    "position": {
+     "longitude": 10.6736,
+     "latitude": 59.9356
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|O12"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "O13"
+     }
+    ],
+    "status": "active",
+    "name": "Mærradalsbekken – Huseby skole",
+    "description": "OneAquaHealth research site O13, Oslo",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Oslo"
+    },
+    "position": {
+     "longitude": 10.6503,
+     "latitude": 59.945
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|O13"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "O14"
+     }
+    ],
+    "status": "active",
+    "name": "Hovinbekken - Krokliveien",
+    "description": "OneAquaHealth research site O14, Oslo",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Oslo"
+    },
+    "position": {
+     "longitude": 10.8214,
+     "latitude": 59.9392
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|O14"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "O15"
+     }
+    ],
+    "status": "active",
+    "name": "Hovinbekken - Hovin",
+    "description": "OneAquaHealth research site O15, Oslo",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Oslo"
+    },
+    "position": {
+     "longitude": 10.8006,
+     "latitude": 59.9206
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|O15"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "O16"
+     }
+    ],
+    "status": "active",
+    "name": "Alna - Kværnerfossene",
+    "description": "OneAquaHealth research site O16, Oslo",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Oslo"
+    },
+    "position": {
+     "longitude": 10.7944,
+     "latitude": 59.9044
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|O16"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "O18"
+     }
+    ],
+    "status": "active",
+    "name": "Alna – v Tveita / plantasjen-",
+    "description": "OneAquaHealth research site O18, Oslo",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Oslo"
+    },
+    "position": {
+     "longitude": 10.8369,
+     "latitude": 59.9219
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|O18"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "O19"
+     }
+    ],
+    "status": "active",
+    "name": "Alna - Grorud",
+    "description": "OneAquaHealth research site O19, Oslo",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Oslo"
+    },
+    "position": {
+     "longitude": 10.9017,
+     "latitude": 59.9525
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|O19"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "O20"
+     }
+    ],
+    "status": "active",
+    "name": "Makrellbekken - Njård",
+    "description": "OneAquaHealth research site O20, Oslo",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Oslo"
+    },
+    "position": {
+     "longitude": 10.6736,
+     "latitude": 59.9432
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|O20"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "T10"
+     }
+    ],
+    "status": "active",
+    "name": "Canal de Saint Martory",
+    "description": "OneAquaHealth research site T10, Toulouse",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Toulouse"
+    },
+    "position": {
+     "longitude": 1.32265,
+     "latitude": 43.5322
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|T10"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "T12"
+     }
+    ],
+    "status": "active",
+    "name": "Fossé de Larramet médian",
+    "description": "OneAquaHealth research site T12, Toulouse",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Toulouse"
+    },
+    "position": {
+     "longitude": 1.34077,
+     "latitude": 43.54003
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|T12"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "T13"
+     }
+    ],
+    "status": "active",
+    "name": "Ruisseau du Roussimort aval",
+    "description": "OneAquaHealth research site T13, Toulouse",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Toulouse"
+    },
+    "position": {
+     "longitude": 1.37785,
+     "latitude": 43.5353
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|T13"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "T14"
+     }
+    ],
+    "status": "active",
+    "name": "Canal agricole (depuis la Saudrune)",
+    "description": "OneAquaHealth research site T14, Toulouse",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Toulouse"
+    },
+    "position": {
+     "longitude": 1.42074,
+     "latitude": 43.53855
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|T14"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "T17"
+     }
+    ],
+    "status": "active",
+    "name": "Fossé de pluvial avant rejet dans fossé de Larramet",
+    "description": "OneAquaHealth research site T17, Toulouse",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Toulouse"
+    },
+    "position": {
+     "longitude": 1.35861,
+     "latitude": 43.5786
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|T17"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "T18"
+     }
+    ],
+    "status": "active",
+    "name": "Ousseau",
+    "description": "OneAquaHealth research site T18, Toulouse",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Toulouse"
+    },
+    "position": {
+     "longitude": 1.35262,
+     "latitude": 43.57882
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|T18"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "T19"
+     }
+    ],
+    "status": "active",
+    "name": "Touch",
+    "description": "OneAquaHealth research site T19, Toulouse",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Toulouse"
+    },
+    "position": {
+     "longitude": 1.35047,
+     "latitude": 43.58253
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|T19"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "T20"
+     }
+    ],
+    "status": "active",
+    "name": "Canal de Moulin",
+    "description": "OneAquaHealth research site T20, Toulouse",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Toulouse"
+    },
+    "position": {
+     "longitude": 1.3493,
+     "latitude": 43.5828
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|T20"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "T4"
+     }
+    ],
+    "status": "active",
+    "name": "Hers",
+    "description": "OneAquaHealth research site T4, Toulouse",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Toulouse"
+    },
+    "position": {
+     "longitude": 1.49464,
+     "latitude": 43.56499
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|T4"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "T11"
+     }
+    ],
+    "status": "active",
+    "name": "Fossé de Larramet amont",
+    "description": "OneAquaHealth research site T11, Toulouse",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Toulouse"
+    },
+    "position": {
+     "longitude": 1.32597,
+     "latitude": 43.52992
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|T11"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "T25"
+     }
+    ],
+    "status": "active",
+    "name": "Ruisseau de l’Armurié",
+    "description": "OneAquaHealth research site T25, Toulouse",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Toulouse"
+    },
+    "position": {
+     "longitude": 1.51501,
+     "latitude": 43.64862
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|T25"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "T16"
+     }
+    ],
+    "status": "active",
+    "name": "Fossé de Larramet aval",
+    "description": "OneAquaHealth research site T16, Toulouse",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Toulouse"
+    },
+    "position": {
+     "longitude": 1.35929,
+     "latitude": 43.57895
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|T16"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Location",
+    "meta": {
+     "profile": [
+      "http://hl7.eu/fhir/ig/oah/StructureDefinition/location-oah"
+     ],
+     "tag": [
+      {
+       "system": "urn:stream-checkup:tags",
+       "code": "site-link",
+       "display": "Stream Check-up site link"
+      }
+     ]
+    },
+    "identifier": [
+     {
+      "system": "https://api.enora-oah.eu/api/sites",
+      "value": "T22"
+     }
+    ],
+    "status": "active",
+    "name": "Ruisseau de l’Armurié",
+    "description": "OneAquaHealth research site T22, Toulouse",
+    "mode": "instance",
+    "type": [
+     {
+      "coding": [
+       {
+        "system": "http://snomed.info/sct",
+        "code": "420531007",
+        "display": "River"
+       }
+      ]
+     }
+    ],
+    "address": {
+     "city": "Toulouse"
+    },
+    "position": {
+     "longitude": 1.36657,
+     "latitude": 43.59608
+    }
+   },
+   "request": {
+    "method": "POST",
+    "url": "Location",
+    "ifNoneExist": "identifier=https://api.enora-oah.eu/api/sites|T22"
+   }
+  }
+ ]
+}

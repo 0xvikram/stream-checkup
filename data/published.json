@@ -1,0 +1,793 @@
+{
+ "sentOn": "2026-10-03",
+ "sandbox": "https://sandbox.hl7europe.eu/oneaquahealth/fhir",
+ "locations": [
+  {
+   "identifier": "C1",
+   "location": "Location/888/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "C2",
+   "location": "Location/889/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "C3",
+   "location": "Location/890/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "C4",
+   "location": "Location/891/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "C5",
+   "location": "Location/892/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "C6",
+   "location": "Location/893/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "C7",
+   "location": "Location/894/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "C8",
+   "location": "Location/895/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "C9",
+   "location": "Location/896/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "C10",
+   "location": "Location/897/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "C11",
+   "location": "Location/898/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "C12",
+   "location": "Location/899/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "C13",
+   "location": "Location/900/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "C14",
+   "location": "Location/901/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "C15",
+   "location": "Location/902/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "C16",
+   "location": "Location/903/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "C17",
+   "location": "Location/904/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "C18",
+   "location": "Location/905/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "C19",
+   "location": "Location/906/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "C20",
+   "location": "Location/907/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "T21",
+   "location": "Location/908/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "T24",
+   "location": "Location/909/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "G2",
+   "location": "Location/910/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "BN1",
+   "location": "Location/911/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "BN2",
+   "location": "Location/912/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "BN3",
+   "location": "Location/913/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "BN4",
+   "location": "Location/914/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "BN5",
+   "location": "Location/915/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "BN6",
+   "location": "Location/916/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "BN7",
+   "location": "Location/917/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "BN8",
+   "location": "Location/918/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "BN9",
+   "location": "Location/919/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "BN10",
+   "location": "Location/920/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "BN11",
+   "location": "Location/921/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "BN12",
+   "location": "Location/922/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "BN13",
+   "location": "Location/923/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "BN14",
+   "location": "Location/924/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "BN15",
+   "location": "Location/925/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "BN16",
+   "location": "Location/926/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "BN17",
+   "location": "Location/927/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "BN18",
+   "location": "Location/928/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "BN19",
+   "location": "Location/929/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "BN20",
+   "location": "Location/930/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "G6",
+   "location": "Location/931/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "T1",
+   "location": "Location/932/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "T3",
+   "location": "Location/933/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "G8",
+   "location": "Location/934/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "G9",
+   "location": "Location/935/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "G10",
+   "location": "Location/936/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "G22",
+   "location": "Location/937/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "G11",
+   "location": "Location/938/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "G12",
+   "location": "Location/939/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "G13",
+   "location": "Location/940/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "G14",
+   "location": "Location/941/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "G15",
+   "location": "Location/942/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "G16",
+   "location": "Location/943/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "G17",
+   "location": "Location/944/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "G18",
+   "location": "Location/945/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "O17",
+   "location": "Location/oah-site-o17/_history/1",
+   "status": "200 OK"
+  },
+  {
+   "identifier": "G1",
+   "location": "Location/946/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "G4",
+   "location": "Location/947/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "G21",
+   "location": "Location/948/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "G5",
+   "location": "Location/949/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "T2",
+   "location": "Location/950/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "G19",
+   "location": "Location/951/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "G20",
+   "location": "Location/952/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "G3",
+   "location": "Location/953/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "T5",
+   "location": "Location/954/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "T6",
+   "location": "Location/955/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "T7",
+   "location": "Location/956/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "T8",
+   "location": "Location/957/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "T9",
+   "location": "Location/958/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "T15",
+   "location": "Location/959/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "G7",
+   "location": "Location/960/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "O1",
+   "location": "Location/961/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "O2",
+   "location": "Location/962/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "O3",
+   "location": "Location/963/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "O5",
+   "location": "Location/964/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "O4",
+   "location": "Location/965/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "O6",
+   "location": "Location/966/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "O7",
+   "location": "Location/967/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "O8",
+   "location": "Location/968/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "O9",
+   "location": "Location/969/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "O10",
+   "location": "Location/970/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "O11",
+   "location": "Location/971/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "O12",
+   "location": "Location/972/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "O13",
+   "location": "Location/973/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "O14",
+   "location": "Location/974/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "O15",
+   "location": "Location/975/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "O16",
+   "location": "Location/976/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "O18",
+   "location": "Location/977/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "O19",
+   "location": "Location/978/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "O20",
+   "location": "Location/979/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "T10",
+   "location": "Location/980/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "T12",
+   "location": "Location/981/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "T13",
+   "location": "Location/982/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "T14",
+   "location": "Location/983/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "T17",
+   "location": "Location/984/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "T18",
+   "location": "Location/985/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "T19",
+   "location": "Location/986/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "T20",
+   "location": "Location/987/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "T4",
+   "location": "Location/988/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "T11",
+   "location": "Location/989/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "T25",
+   "location": "Location/990/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "T16",
+   "location": "Location/991/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "T22",
+   "location": "Location/992/_history/1",
+   "status": "201 Created"
+  }
+ ],
+ "record_problems": [
+  {
+   "identifier": "Obs-Almyros-Calcium-2018",
+   "location": "DetectedIssue/993/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Calcium-2019",
+   "location": "DetectedIssue/994/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Calcium-2020",
+   "location": "DetectedIssue/995/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Chloride-2013",
+   "location": "DetectedIssue/996/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Chloride-2014",
+   "location": "DetectedIssue/997/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Chloride-2015",
+   "location": "DetectedIssue/998/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Chloride-2018",
+   "location": "DetectedIssue/999/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Chloride-2019",
+   "location": "DetectedIssue/1000/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Chloride-2020",
+   "location": "DetectedIssue/1001/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-DissolvedOxygen-2013",
+   "location": "DetectedIssue/1002/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-DissolvedOxygen-2014",
+   "location": "DetectedIssue/1003/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-DissolvedOxygen-2015",
+   "location": "DetectedIssue/1004/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-DissolvedOxygen-2018",
+   "location": "DetectedIssue/1005/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-DissolvedOxygen-2019",
+   "location": "DetectedIssue/1006/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-DissolvedOxygen-2020",
+   "location": "DetectedIssue/1007/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-ElectricalConductivity-2013",
+   "location": "DetectedIssue/1008/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-ElectricalConductivity-2014",
+   "location": "DetectedIssue/1009/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-ElectricalConductivity-2015",
+   "location": "DetectedIssue/1010/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-ElectricalConductivity-2018",
+   "location": "DetectedIssue/1011/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-ElectricalConductivity-2019",
+   "location": "DetectedIssue/1012/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-ElectricalConductivity-2020",
+   "location": "DetectedIssue/1013/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Magnesium-2018",
+   "location": "DetectedIssue/1014/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Magnesium-2019",
+   "location": "DetectedIssue/1015/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Magnesium-2020",
+   "location": "DetectedIssue/1016/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Nitrate-2013",
+   "location": "DetectedIssue/1017/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Nitrate-2014",
+   "location": "DetectedIssue/1018/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Nitrate-2015",
+   "location": "DetectedIssue/1019/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Nitrate-2018",
+   "location": "DetectedIssue/1020/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Nitrate-2019",
+   "location": "DetectedIssue/1021/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Nitrate-2020",
+   "location": "DetectedIssue/1022/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Ph-2013",
+   "location": "DetectedIssue/1023/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Ph-2014",
+   "location": "DetectedIssue/1024/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Ph-2015",
+   "location": "DetectedIssue/1025/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Ph-2018",
+   "location": "DetectedIssue/1026/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Ph-2019",
+   "location": "DetectedIssue/1027/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Ph-2020",
+   "location": "DetectedIssue/1028/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Sodium-2018",
+   "location": "DetectedIssue/1029/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Sodium-2019",
+   "location": "DetectedIssue/1030/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Sodium-2020",
+   "location": "DetectedIssue/1031/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Sulphate-2013",
+   "location": "DetectedIssue/1032/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Sulphate-2014",
+   "location": "DetectedIssue/1033/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Sulphate-2015",
+   "location": "DetectedIssue/1034/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Sulphate-2018",
+   "location": "DetectedIssue/1035/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Sulphate-2019",
+   "location": "DetectedIssue/1036/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-Sulphate-2020",
+   "location": "DetectedIssue/1037/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-TemperatureWater-2013",
+   "location": "DetectedIssue/1038/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-TemperatureWater-2014",
+   "location": "DetectedIssue/1039/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-TemperatureWater-2015",
+   "location": "DetectedIssue/1040/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-TemperatureWater-2018",
+   "location": "DetectedIssue/1041/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-TemperatureWater-2019",
+   "location": "DetectedIssue/1042/_history/1",
+   "status": "201 Created"
+  },
+  {
+   "identifier": "Obs-Almyros-TemperatureWater-2020",
+   "location": "DetectedIssue/1043/_history/1",
+   "status": "201 Created"
+  }
+ ]
+}

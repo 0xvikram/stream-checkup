@@ -1,0 +1,43 @@
+# Check every record Stream Check-up writes against the official HL7 validator
+# and the OneAquaHealth implementation guide. The report is kept as an artifact.
+name: Validate records
+
+on:
+  push:
+    paths: ["scripts/fhir.py", "scripts/publish.py", "data/fhir-out/**", ".github/workflows/validate.yml"]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Write the records to files (nothing is sent)
+        run: python3 scripts/publish.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Build the OneAquaHealth guide from its source
+        run: |
+          git clone --depth 1 https://github.com/hl7-eu/oah.git oah
+          npx --yes fsh-sushi oah
+      - name: Download the official validator
+        run: curl -sSL -o validator_cli.jar https://github.com/hapifhir/org.hl7.fhir.core/releases/latest/download/validator_cli.jar
+      - name: Validate
+        run: |
+          java -jar validator_cli.jar data/fhir-out/locations.json data/fhir-out/record_problems.json \
+            -version 4.0.1 -ig oah/fsh-generated/resources -output validation-report.json | tee validation.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: validation-report
+          path: |
+            validation.txt
+            validation-report.json

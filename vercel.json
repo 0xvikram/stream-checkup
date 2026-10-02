@@ -1,0 +1,10 @@
+{
+  "buildCommand": "cd web && npm install && npm run build",
+  "outputDirectory": "web/dist",
+  "installCommand": "echo skip",
+  "framework": null,
+  "rewrites": [
+    { "source": "/fhir-relay/ServiceRequest", "destination": "https://sandbox.hl7europe.eu/oneaquahealth/fhir/ServiceRequest" },
+    { "source": "/fhir-relay/ServiceRequest/:id", "destination": "https://sandbox.hl7europe.eu/oneaquahealth/fhir/ServiceRequest/:id" }
+  ]
+}
